@@ -7,16 +7,17 @@
     <title>Digikala</title>
   </head>
   <body>
-    <header>
-      <!-- top-pinned-banner for offer's banner -->
-      <div id="top-pinned-banner">
-        <img
-          class="w-full h-[60px] inline-block object-cover"
-          src="public/images/top-pinned-banner.jpg"
-          alt="تا 235 میلیون تومان >جایزه برای همه بدون قرعه کشی"
-        />
-      </div>
-      
+    <!-- top-pinned-banner for offer's banner -->
+    <div id="top-pinned-banner">
+      <img
+        class="w-full h-[60px] inline-block object-cover"
+        src="public/images/top-pinned-banner.jpg"
+        alt="تا 235 میلیون تومان >جایزه برای همه بدون قرعه کشی"
+      />
+    </div>
+    <!-- top-pinned-banner end -->
+    <!-- header including header-bar and nav -->
+    <header class="w-full h-[110px] shadow-[0_1px_2px_rgba(0,0,0,0.3)]">
       <!-- header bar including header logo, search bar, sign-in, sign-up, shopping cart-->
       <div id="header-bar" class="w-full bg-neutral-000 relative z-5">
         <div
@@ -25,20 +26,28 @@
           <div class="w-full py-3 flex relative z-2">
             <div class="flex flex-1 items-center grow">
               <!-- header logo -->
-              <a class="ml-5 shrink-0" href="#" id="header-logo">
-                <div class="w-[195px] h-[30px] leading-0">
-                  <img
-                    class="w-full inline-block h-full object-contain"
-                    src="public/svg/header-logo.svg"
-                    alt="دیجی کالا"
-                  />
-                </div>
-              </a>
+              <div>
+                <a class="ml-5 shrink-0" href="#" id="header-logo">
+                  <div class="w-[195px] h-[30px] leading-0">
+                    <img
+                      class="w-full inline-block h-full object-contain"
+                      src="public/svg/header-logo.svg"
+                      alt="دیجی کالا"
+                    />
+                  </div>
+                </a>
+              </div>
+              <!-- header logo end -->
             </div>
           </div>
         </div>
       </div>
+      <!-- header-bar end -->
+      <!-- nav-bar -->
+      <nav></nav>
+      <!-- nav-bar end -->
     </header>
+    <!-- header end -->
 
     <!-- <a href="register-page.htm">ورود / ثبت نام</a> -->
     <script type="module" src="/src/main.js"></script>
