@@ -1,1 +1,9 @@
+@import url(./setting.css);
 @import "tailwindcss";
+@theme {
+    --font-cube: cube;
+    --font-iranYekan: iranYekan;
+    --font-iranYekanMedium: iranYekanMedium;
+    --font-iranYekanBold: iranYekanBold;
+    --font-iranYekanExtraBold: iranYekanExtraBold;
+}

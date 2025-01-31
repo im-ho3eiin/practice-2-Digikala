@@ -1,0 +1,62 @@
+@font-face {
+  font-family: cube;
+  src: url(../public/fonts/cube.eot) format("embedded-opentype");
+  src: url(../public/fonts/cube.woff2) format("woff2");
+  src: url(../public/fonts/cube.woff) format("woff");
+  src: url(../public/fonts/cube.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "iranYekan";
+  src: url("../public/fonts/IRANYekanWeb.eot");
+  src: url("../public/fonts/IRANYekanWeb.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/IRANYekanWeb.woff2") format("woff2"),
+    url("../public/fonts/IRANYekanWeb.woff") format("woff"),
+    url("../public/fonts/IRANYekanWeb.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "iranYekanMedium";
+  src: url("../public/fonts/IRANYekanWeb-Medium.eot");
+  src: url("../public/fonts/IRANYekanWeb-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/IRANYekanWeb-Medium.woff2") format("woff2"),
+    url("../public/fonts/IRANYekanWeb-Medium.woff") format("woff"),
+    url("../public/fonts/IRANYekanWeb-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "iranYekanBold";
+  src: url("../public/fonts/IRANYekanWeb-Bold.eot");
+  src: url("../public/fonts/IRANYekanWeb-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/IRANYekanWeb-Bold.woff2") format("woff2"),
+    url("../public/fonts/IRANYekanWeb-Bold.woff") format("woff"),
+    url("../public/fonts/IRANYekanWeb-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "iranYekanExtraBold";
+  src: url("../public/fonts/IRANYekanWeb-ExtraBold.eot");
+  src: url("../public/fonts/IRANYekanWeb-ExtraBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/IRANYekanWeb-ExtraBold.woff2") format("woff2"),
+    url("../public/fonts/IRANYekanWeb-ExtraBold.woff") format("woff"),
+    url("../public/fonts/IRANYekanWeb-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
