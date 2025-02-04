@@ -60,139 +60,22 @@
       <!-- link button end -->
     </div>
     <!-- mobile-top-app-ad end -->
-    <!-- mobile header incuding search bar and location  -->
-    <!-- mobile header -->
-    <header
-      class="w-full h-[104.800px] py-[12px] px-[16px] border-b-[1px] border-[rgb(240,240,241)] shadow-1 flex flex-col items-start lg:hidden"
-    >
-      <!-- search bar -->
-      <div class="w-full h-[40px] rounded-full bg-[rgb(240,240,241)]">
-        <div
-          class="w-full h-[36px] px-[12px] pt-[5px] flex flex-row items-center justify-start"
-        >
-          <div class="w-[24px] h-[24px] flex items-center justify-center">
-            <svg
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              xmlns="http://www.w3.org/2000/svg"
-              style="width: 24px; height: 24px; fill: rgb(161, 163, 168)"
-              width="24"
-              height="24"
-            >
-              <defs>
-                <symbol
-                  id="searchSearch"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10.5 18a7.5 7.5 0 115.973-2.963l4.369 4.246-1.394 1.434-4.387-4.263A7.467 7.467 0 0110.5 18zm5.5-7.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </symbol>
-              </defs>
-              <g>
-                <path
-                  fill-rule="evenodd"
-                  d="M10.5 18a7.5 7.5 0 115.973-2.963l4.369 4.246-1.394 1.434-4.387-4.263A7.467 7.467 0 0110.5 18zm5.5-7.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z"
-                  clip-rule="evenodd"
-                ></path>
-              </g>
-            </svg>
-          </div>
-          <div class="px-[8px] grow">
-            <div class="w-[125px] flex items-center justify-between">
-              <div
-                class="font-iranYekanBold text-[14px] text-[rgb(162,165,169)]"
-              >
-                جستجو در
-              </div>
-              <img
-                src="public/svg/mobile-header-logo.svg"
-                alt="فروشگاه دیجی کالا"
-              />
-            </div>
-          </div>
-          <div
-            class="w-[24px] h-[24px] font-cube bg-amber-300 flex items-center justify-center before:content-['']"
-            data-icon-name="cube-action-ai-photo"
-            data-icon=""
-          >
-            <!-- i cant use this font type in a correct way so i have to ask it -->
-          </div>
-        </div>
-      </div>
-      <!-- search bar end -->
-      <!-- location -->
-      <div class="w-full h-[24px] mt-[14px] mb-[2px] flex flex-row">
-        <div class="flex flex-row items-center grow">
-          <div class="w-[20px] h-full bg-amber-700"></div>
-          <div class="font-iranYekan text-[12px] leading-[21.6px] pr-[8px]">
-            انتخاب استان و شهر
-          </div>
-        </div>
-        <div class="w-[24px] h-[24px] pt-[0.5px]">
-          <svg
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            xmlns="http://www.w3.org/2000/svg"
-            style="width: 24px; height: 24px; fill: rgb(66, 71, 80)"
-            width="24"
-            height="24"
-          >
-            <defs>
-              <symbol
-                id="chevronLeft"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
-                ></path>
-              </symbol>
-            </defs>
-            <g>
-              <path
-                d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
-              ></path>
-            </g>
-          </svg>
-        </div>
-      </div>
-      <!-- location end -->
-    </header>
-    <!-- mobile header end -->
-    <!-- desktop header including header-bar and nav -->
-    <header
-      class="hidden lg:block w-full h-[108px] shadow-[0_1px_2px_rgba(0,0,0,0.3)]"
-    >
-      <!-- header bar  header logo, search bar and register section-->
+    <!-- header including mobile and desktop headers -->
+    <header>
+      <!-- mobile header incuding search bar and location-->
       <div
-        id="header-bar"
-        class="w-full h-[68px] bg-neutral-000 relative z-5 flex flex-row px-[16px]"
+        class="w-full h-[104.800px] py-[12px] px-[16px] border-b-[1px] border-[rgb(240,240,241)] shadow-1 flex flex-col items-start lg:hidden"
       >
-        <!-- header logo -->
-        <div class="bg-neutral-000 w-[225px] flex justify-end items-center">
-          <a class="ml-5" href="#" id="header-logo">
-            <div class="w-[195px] h-[30px]">
-              <img
-                class="w-full inline-block h-full object-contain"
-                src="public/svg/desktop-header-logo.svg"
-                alt="دیجی کالا"
-              />
-            </div>
-          </a>
-        </div>
-        <!-- header logo end -->
         <!-- search bar -->
-        <div class="bg-neutral-000 grow flex justify-start items-center">
+        <div class="w-full h-[40px] rounded-full bg-[rgb(240,240,241)]">
           <div
-            class="w-[600px] h-[40px] bg-neutral-100 rounded-[8px] flex justify-start items-center px-[16px]"
+            class="w-full h-[36px] px-[12px] pt-[5px] flex flex-row items-center justify-start"
           >
-            <div class="cursor-pointer">
+            <div class="w-[24px] h-[24px] flex items-center justify-center">
               <svg
                 xmlns:xlink="http://www.w3.org/1999/xlink"
                 xmlns="http://www.w3.org/2000/svg"
-                style="width: 24px; height: 24px; fill: #a1a3a8"
+                style="width: 24px; height: 24px; fill: rgb(161, 163, 168)"
                 width="24"
                 height="24"
               >
@@ -218,61 +101,38 @@
                 </g>
               </svg>
             </div>
-            <input
-              class="font-iranYekan px-[16px] border-none outline-none grow text-[12px]"
-              type="text"
-              placeholder="جستجو"
-            />
+            <div class="px-[8px] grow">
+              <div class="w-[125px] flex items-center justify-between">
+                <div
+                  class="font-iranYekanBold text-[14px] text-[rgb(162,165,169)]"
+                >
+                  جستجو در
+                </div>
+                <img
+                  src="public/svg/mobile-header-logo.svg"
+                  alt="فروشگاه دیجی کالا"
+                />
+              </div>
+            </div>
+            <div
+              class="w-[24px] h-[24px] font-cube bg-amber-300 flex items-center justify-center before:content-['']"
+              data-icon-name="cube-action-ai-photo"
+              data-icon=""
+            >
+              <!-- i cant use this font type in a correct way so i have to ask it -->
+            </div>
           </div>
         </div>
         <!-- search bar end -->
-        <!-- account section including register and shopping cart-->
-        <div class="w-[200px] flex items-center justify-start">
-          <!-- register section -->
-          <a
-            class="w-[135px] h-[40px] px-[16px] py-[8px] rounded-[8px] border-[0.8px] border-solid border-[rgb(224,224,226)] font-iranYekanBold text-[12px] flex flex-row items-center"
-            href="./register-page.html"
-          >
-            <span class="grow">
-              <svg
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                xmlns="http://www.w3.org/2000/svg"
-                style="width: 24px; height: 24px; fill: rgb(66, 71, 80)"
-                width="24"
-                height="24"
-              >
-                <defs>
-                  <symbol
-                    id="registerationSignIn"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M16 15h-2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h6a2 2 0 012 2v2h2V7a4 4 0 00-4-4H6a4 4 0 00-4 4v10a4 4 0 004 4h6a4 4 0 004-4v-2zm6-4H9.414l2.293-2.293-1.414-1.414-4 4a1 1 0 000 1.414l4 4 1.414-1.414L9.414 13H22v-2z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </symbol>
-                </defs>
-                <g>
-                  <path
-                    fill-rule="evenodd"
-                    d="M16 15h-2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h6a2 2 0 012 2v2h2V7a4 4 0 00-4-4H6a4 4 0 00-4 4v10a4 4 0 004 4h6a4 4 0 004-4v-2zm6-4H9.414l2.293-2.293-1.414-1.414-4 4a1 1 0 000 1.414l4 4 1.414-1.414L9.414 13H22v-2z"
-                    clip-rule="evenodd"
-                  ></path>
-                </g>
-              </svg>
-            </span>
-            <span class="text-[#0C0C0C]"
-              >ورود
-              <span class="font-iranYekanExtraBold text-[14px]">|</span>
-              ثبت‌نام</span
-            >
-          </a>
-          <!-- register section end -->
-          <span class="bg-neutral-200 mx-3 block w-[1px] h-[24px]"></span>
-          <!-- shopping cart -->
-          <a href="#" class="p-[8px]">
+        <!-- location -->
+        <div class="w-full h-[24px] mt-[14px] mb-[2px] flex flex-row">
+          <div class="flex flex-row items-center grow">
+            <div class="w-[20px] h-full bg-amber-700"></div>
+            <div class="font-iranYekan text-[12px] leading-[21.6px] pr-[8px]">
+              انتخاب استان و شهر
+            </div>
+          </div>
+          <div class="w-[24px] h-[24px] pt-[0.5px]">
             <svg
               xmlns:xlink="http://www.w3.org/1999/xlink"
               xmlns="http://www.w3.org/2000/svg"
@@ -282,43 +142,186 @@
             >
               <defs>
                 <symbol
-                  id="cartOff"
+                  id="chevronLeft"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                 >
                   <path
-                    fill-rule="evenodd"
-                    d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z"
-                    clip-rule="evenodd"
+                    d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
                   ></path>
                 </symbol>
               </defs>
               <g>
                 <path
-                  fill-rule="evenodd"
-                  d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z"
-                  clip-rule="evenodd"
+                  d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
                 ></path>
               </g>
             </svg>
-          </a>
-          <!-- shopping cart -->
+          </div>
         </div>
-        <!-- account end -->
+        <!-- location end -->
       </div>
-      <!-- header-bar end -->
-      <!-- nav-bar including menu and header-location -->
-      <nav class="w-full h-[40px] px-[16px] bg-amber-300 flex flex-row">
-        <!-- menu including categories and nav-items -->
-        <div class="w-[977px] h-full grow bg-amber-900"></div>
-        <!-- menu end -->
-        <!-- header-location -->
-        <div class="w-[175px] h-[40px] pb-[4px] bg-amber-500"></div>
-        <!-- header-location end -->
-      </nav>
-      <!-- nav-bar end -->
+      <!-- mobile header end -->
+      <!-- desktop header including header-bar and nav -->
+      <div
+        class="hidden lg:block w-full h-[108px] shadow-[0_1px_2px_rgba(0,0,0,0.3)]"
+      >
+        <!-- header bar  header logo, search bar and register section-->
+        <div
+          id="header-bar"
+          class="w-full h-[68px] bg-neutral-000 relative z-5 flex flex-row px-[16px]"
+        >
+          <!-- header logo -->
+          <div class="bg-neutral-000 w-[225px] flex justify-end items-center">
+            <a class="ml-5" href="#" id="header-logo">
+              <div class="w-[195px] h-[30px]">
+                <img
+                  class="w-full inline-block h-full object-contain"
+                  src="public/svg/desktop-header-logo.svg"
+                  alt="دیجی کالا"
+                />
+              </div>
+            </a>
+          </div>
+          <!-- header logo end -->
+          <!-- search bar -->
+          <div class="bg-neutral-000 grow flex justify-start items-center">
+            <div
+              class="w-[600px] h-[40px] bg-neutral-100 rounded-[8px] flex justify-start items-center px-[16px]"
+            >
+              <div class="cursor-pointer">
+                <svg
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="width: 24px; height: 24px; fill: #a1a3a8"
+                  width="24"
+                  height="24"
+                >
+                  <defs>
+                    <symbol
+                      id="searchSearch"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.5 18a7.5 7.5 0 115.973-2.963l4.369 4.246-1.394 1.434-4.387-4.263A7.467 7.467 0 0110.5 18zm5.5-7.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </symbol>
+                  </defs>
+                  <g>
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.5 18a7.5 7.5 0 115.973-2.963l4.369 4.246-1.394 1.434-4.387-4.263A7.467 7.467 0 0110.5 18zm5.5-7.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+              <input
+                class="font-iranYekan px-[16px] border-none outline-none grow text-[12px]"
+                type="text"
+                placeholder="جستجو"
+              />
+            </div>
+          </div>
+          <!-- search bar end -->
+          <!-- account section including register and shopping cart-->
+          <div class="w-[200px] flex items-center justify-start">
+            <!-- register section -->
+            <a
+              class="w-[135px] h-[40px] px-[16px] py-[8px] rounded-[8px] border-[0.8px] border-solid border-[rgb(224,224,226)] font-iranYekanBold text-[12px] flex flex-row items-center"
+              href="./register-page.html"
+            >
+              <span class="grow">
+                <svg
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="width: 24px; height: 24px; fill: rgb(66, 71, 80)"
+                  width="24"
+                  height="24"
+                >
+                  <defs>
+                    <symbol
+                      id="registerationSignIn"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16 15h-2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h6a2 2 0 012 2v2h2V7a4 4 0 00-4-4H6a4 4 0 00-4 4v10a4 4 0 004 4h6a4 4 0 004-4v-2zm6-4H9.414l2.293-2.293-1.414-1.414-4 4a1 1 0 000 1.414l4 4 1.414-1.414L9.414 13H22v-2z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </symbol>
+                  </defs>
+                  <g>
+                    <path
+                      fill-rule="evenodd"
+                      d="M16 15h-2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h6a2 2 0 012 2v2h2V7a4 4 0 00-4-4H6a4 4 0 00-4 4v10a4 4 0 004 4h6a4 4 0 004-4v-2zm6-4H9.414l2.293-2.293-1.414-1.414-4 4a1 1 0 000 1.414l4 4 1.414-1.414L9.414 13H22v-2z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </g>
+                </svg>
+              </span>
+              <span class="text-[#0C0C0C]"
+                >ورود
+                <span class="font-iranYekanExtraBold text-[14px]">|</span>
+                ثبت‌نام</span
+              >
+            </a>
+            <!-- register section end -->
+            <span class="bg-neutral-200 mx-3 block w-[1px] h-[24px]"></span>
+            <!-- shopping cart -->
+            <a href="#" class="p-[8px]">
+              <svg
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                style="width: 24px; height: 24px; fill: rgb(66, 71, 80)"
+                width="24"
+                height="24"
+              >
+                <defs>
+                  <symbol
+                    id="cartOff"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </symbol>
+                </defs>
+                <g>
+                  <path
+                    fill-rule="evenodd"
+                    d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z"
+                    clip-rule="evenodd"
+                  ></path>
+                </g>
+              </svg>
+            </a>
+            <!-- shopping cart -->
+          </div>
+          <!-- account end -->
+        </div>
+        <!-- header-bar end -->
+        <!-- nav-bar including menu and header-location -->
+        <nav class="w-full h-[40px] px-[16px] bg-amber-300 flex flex-row">
+          <!-- menu including categories and nav-items -->
+          <div class="w-[977px] h-full grow bg-amber-900"></div>
+          <!-- menu end -->
+          <!-- header-location -->
+          <div class="w-[175px] h-[40px] pb-[4px] bg-amber-500"></div>
+          <!-- header-location end -->
+        </nav>
+        <!-- nav-bar end -->
+      </div>
+      <!-- desktop header end -->
     </header>
-    <!-- desktop header end -->
+    <!-- header end -->
 
     <script type="module" src="/src/main.js"></script>
   </body>
