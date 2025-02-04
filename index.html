@@ -24,7 +24,9 @@
         class="w-[195px] h-full flex flex-row items-center object-contain grow"
       >
         <!-- close button -->
-        <div class="w-[36px] h-full flex flex-row items-center justify-center cursor-pointer">
+        <div
+          class="w-[36px] h-full flex flex-row items-center justify-center cursor-pointer"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             style="width: 20px; height: 20px; fill: rgb(158, 158, 158)"
@@ -58,6 +60,111 @@
       <!-- link button end -->
     </div>
     <!-- mobile-top-app-ad end -->
+    <!-- mobile header incuding search bar and location  -->
+    <!-- mobile header -->
+    <header
+      class="w-full h-[104.800px] py-[12px] px-[16px] border-b-[1px] border-[rgb(240,240,241)] shadow-1 flex flex-col items-start lg:hidden"
+    >
+      <!-- search bar -->
+      <div class="w-full h-[40px] rounded-full bg-[rgb(240,240,241)]">
+        <div
+          class="w-full h-[36px] px-[12px] pt-[5px] flex flex-row items-center justify-start"
+        >
+          <div class="w-[24px] h-[24px] flex items-center justify-center">
+            <svg
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns="http://www.w3.org/2000/svg"
+              style="width: 24px; height: 24px; fill: rgb(161, 163, 168)"
+              width="24"
+              height="24"
+            >
+              <defs>
+                <symbol
+                  id="searchSearch"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.5 18a7.5 7.5 0 115.973-2.963l4.369 4.246-1.394 1.434-4.387-4.263A7.467 7.467 0 0110.5 18zm5.5-7.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z"
+                    clip-rule="evenodd"
+                  ></path>
+                </symbol>
+              </defs>
+              <g>
+                <path
+                  fill-rule="evenodd"
+                  d="M10.5 18a7.5 7.5 0 115.973-2.963l4.369 4.246-1.394 1.434-4.387-4.263A7.467 7.467 0 0110.5 18zm5.5-7.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z"
+                  clip-rule="evenodd"
+                ></path>
+              </g>
+            </svg>
+          </div>
+          <div class="px-[8px] grow">
+            <div class="w-[125px] flex items-center justify-between">
+              <div
+                class="font-iranYekanBold text-[14px] text-[rgb(162,165,169)]"
+              >
+                جستجو در
+              </div>
+              <img
+                src="public/svg/mobile-header-logo.svg"
+                alt="فروشگاه دیجی کالا"
+              />
+            </div>
+          </div>
+          <div
+            class="w-[24px] h-[24px] font-cube bg-amber-300 flex items-center justify-center before:content-['']"
+            data-icon-name="cube-action-ai-photo"
+            data-icon=""
+          >
+            <!-- i cant use this font type in a correct way so i have to ask it -->
+          </div>
+        </div>
+      </div>
+      <!-- search bar end -->
+      <!-- location -->
+      <div class="w-full h-[24px] mt-[14px] mb-[2px] flex flex-row">
+        <div class="flex flex-row items-center grow">
+          <div class="w-[20px] h-full bg-amber-700"></div>
+          <div class="font-iranYekan text-[12px] leading-[21.6px] pr-[8px]">
+            انتخاب استان و شهر
+          </div>
+        </div>
+        <div class="w-[24px] h-[24px] pt-[0.5px]">
+          <svg
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns="http://www.w3.org/2000/svg"
+            style="
+              width: 24px;
+              height: 24px;
+              fill: rgb(66, 71, 80);
+            "
+            width="24"
+            height="24"
+          >
+            <defs>
+              <symbol
+                id="chevronLeft"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                ></path>
+              </symbol>
+            </defs>
+            <g>
+              <path
+                d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+              ></path>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <!-- location end -->
+    </header>
+    <!-- mobile header end -->
     <!-- desktop header including header-bar and nav -->
     <header
       class="hidden lg:block w-full h-[108px] shadow-[0_1px_2px_rgba(0,0,0,0.3)]"
