@@ -13,6 +13,8 @@
   max-width: 1676px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .container-w-main {
   width: 100%;
