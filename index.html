@@ -7,194 +7,78 @@
     <link rel="stylesheet" href="src/style.cssy" />
     <title>Digikala</title>
   </head>
-  <body>
-    <!-- top-pinned-banner for offer's banner -->
-    <div id="top-pinned-banner">
-      <img
-        class="w-full h-[35px] lg:h-[60px] inline-block object-cover"
-        src="public/images/top-pinned-banner.jpg"
-        alt="تا 235 میلیون تومان >جایزه برای همه بدون قرعه کشی"
-      />
-    </div>
-    <!-- top-pinned-banner end -->
-    <!-- mobile-top-app-ad  -->
-    <div
-      class="lg:hidden w-full h-[44px] flex flex-row pl-[16px] pt-[8px] pr-[8px]"
-    >
-      <div
-        class="w-[195px] h-full flex flex-row items-center object-contain grow"
-      >
-        <!-- close button -->
-        <div
-          class="w-[36px] h-full flex flex-row items-center justify-center cursor-pointer"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            style="width: 20px; height: 20px; fill: rgb(158, 158, 158)"
-            viewBox="0 0 24 24"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M18.364 7.05L16.95 5.636 12 10.586l-4.95-4.95L5.636 7.05l4.95 4.95-4.95 4.95 1.414 1.414 4.95-4.95 4.95 4.95 1.414-1.414-4.95-4.95 4.95-4.95z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-        </div>
-        <!-- close button end -->
-        <!-- title -->
+  <body >
+    <!-- container -->
+    <div class="m-0 p-0 box-border">
+      <!-- top-pinned-banner for offer's banner -->
+      <div id="top-pinned-banner">
         <img
-          class="w-[32px] h-[32px] ml-[8px] mr-[4px]"
-          src="public/images/mobile-top-app-ad-logo.png"
-          alt="نرم افزار دیجی کالا"
+          class="w-full h-[35px] lg:h-[60px] inline-block object-cover"
+          src="public/images/top-pinned-banner.jpg"
+          alt="تا 235 میلیون تومان >جایزه برای همه بدون قرعه کشی"
         />
-        <div class="font-iranYekanBold text-[14px] leading-[29.4px]">
-          اپلیکیشن دیجی‌‌کالا
-        </div>
-        <!-- title end -->
       </div>
-      <!-- link button -->
+      <!-- top-pinned-banner end -->
+      <!-- mobile-top-app-ad  -->
       <div
-        class="px-[16px] py-[4px] bg-[#0C0C0C] rounded-[8px] border-[1px] border-[rgb(12,12,12)] font-iranYekanBold text-[rgb(255,255,255)] text-[12px] flex items-center justify-center cursor-pointer"
+        class="lg:hidden w-full h-[44px] flex flex-row pl-[16px] pt-[8px] pr-[8px]"
       >
-        نصب
-      </div>
-      <!-- link button end -->
-    </div>
-    <!-- mobile-top-app-ad end -->
-    <!-- header including mobile and desktop headers -->
-    <header>
-      <!-- mobile header incuding search bar and location-->
-      <div
-        class="w-full h-[104.800px] py-[12px] px-[16px] border-b-[1px] border-[rgb(240,240,241)] shadow-1 flex flex-col items-start lg:hidden"
-      >
-        <!-- search bar -->
-        <div class="w-full h-[40px] rounded-full bg-[rgb(240,240,241)]">
+        <div
+          class="w-[195px] h-full flex flex-row items-center object-contain grow"
+        >
+          <!-- close button -->
           <div
-            class="w-full h-[36px] px-[12px] pt-[5px] flex flex-row items-center justify-start"
+            class="w-[36px] h-full flex flex-row items-center justify-center cursor-pointer"
           >
-            <div class="w-[24px] h-[24px] flex items-center justify-center">
-              <svg
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                xmlns="http://www.w3.org/2000/svg"
-                style="width: 24px; height: 24px; fill: rgb(161, 163, 168)"
-                width="24"
-                height="24"
-              >
-                <defs>
-                  <symbol
-                    id="searchSearch"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.5 18a7.5 7.5 0 115.973-2.963l4.369 4.246-1.394 1.434-4.387-4.263A7.467 7.467 0 0110.5 18zm5.5-7.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </symbol>
-                </defs>
-                <g>
-                  <path
-                    fill-rule="evenodd"
-                    d="M10.5 18a7.5 7.5 0 115.973-2.963l4.369 4.246-1.394 1.434-4.387-4.263A7.467 7.467 0 0110.5 18zm5.5-7.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </g>
-              </svg>
-            </div>
-            <div class="px-[8px] grow">
-              <div class="w-[125px] flex items-center justify-between">
-                <div
-                  class="font-iranYekanBold text-[14px] leading-[30.1px] text-[rgb(162,165,169)]"
-                >
-                  جستجو در
-                </div>
-                <img
-                  src="public/svg/mobile-header-logo.svg"
-                  alt="فروشگاه دیجی کالا"
-                />
-              </div>
-            </div>
-            <div
-              class="w-[24px] h-[24px] font-cube bg-amber-300 flex items-center justify-center before:content-['']"
-              data-icon-name="cube-action-ai-photo"
-              data-icon=""
-            >
-              <!-- i cant use this font type in a correct way so i have to ask it -->
-            </div>
-          </div>
-        </div>
-        <!-- search bar end -->
-        <!-- location -->
-        <div class="w-full h-[24px] mt-[14px] mb-[2px] flex flex-row">
-          <div class="flex flex-row items-center grow">
-            <div class="w-[20px] h-full bg-amber-700"></div>
-            <div class="font-iranYekan text-[12px] leading-[21.6px] pr-[8px]">
-              انتخاب استان و شهر
-            </div>
-          </div>
-          <div class="w-[24px] h-[24px] pt-[0.5px]">
             <svg
-              xmlns:xlink="http://www.w3.org/1999/xlink"
               xmlns="http://www.w3.org/2000/svg"
-              style="width: 24px; height: 24px; fill: rgb(66, 71, 80)"
-              width="24"
-              height="24"
+              style="width: 20px; height: 20px; fill: rgb(158, 158, 158)"
+              viewBox="0 0 24 24"
             >
-              <defs>
-                <symbol
-                  id="chevronLeft"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
-                  ></path>
-                </symbol>
-              </defs>
-              <g>
-                <path
-                  d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
-                ></path>
-              </g>
+              <path
+                fill-rule="evenodd"
+                d="M18.364 7.05L16.95 5.636 12 10.586l-4.95-4.95L5.636 7.05l4.95 4.95-4.95 4.95 1.414 1.414 4.95-4.95 4.95 4.95 1.414-1.414-4.95-4.95 4.95-4.95z"
+                clip-rule="evenodd"
+              ></path>
             </svg>
           </div>
-        </div>
-        <!-- location end -->
-      </div>
-      <!-- mobile header end -->
-      <!-- desktop header including header-bar and nav -->
-      <div
-        class="hidden lg:block w-full h-[108px] shadow-[0_0.5px_2px_rgba(0,0,0,0.3)]"
-      >
-        <!-- header bar  header logo, search bar and register section-->
-        <div
-          id="header-bar"
-          class="w-full h-[68px] bg-neutral-000 relative z-5 flex flex-row px-[16px]"
-        >
-          <!-- header logo -->
-          <div class="bg-neutral-000 w-[225px] flex justify-end items-center">
-            <a class="ml-5" href="#" id="header-logo">
-              <div class="w-[195px] h-[30px]">
-                <img
-                  class="w-full inline-block h-full object-contain"
-                  src="public/svg/desktop-header-logo.svg"
-                  alt="دیجی کالا"
-                />
-              </div>
-            </a>
+          <!-- close button end -->
+          <!-- title -->
+          <img
+            class="w-[32px] h-[32px] ml-[8px] mr-[4px]"
+            src="public/images/mobile-top-app-ad-logo.png"
+            alt="نرم افزار دیجی کالا"
+          />
+          <div class="font-iranYekanBold text-[14px] leading-[29.4px]">
+            اپلیکیشن دیجی‌‌کالا
           </div>
-          <!-- header logo end -->
+          <!-- title end -->
+        </div>
+        <!-- link button -->
+        <div
+          class="px-[16px] py-[4px] bg-[#0C0C0C] rounded-[8px] border-[1px] border-[rgb(12,12,12)] font-iranYekanBold text-[rgb(255,255,255)] text-[12px] flex items-center justify-center cursor-pointer"
+        >
+          نصب
+        </div>
+        <!-- link button end -->
+      </div>
+      <!-- mobile-top-app-ad end -->
+      <!-- header including mobile and desktop headers -->
+      <header>
+        <!-- mobile header incuding search bar and location-->
+        <div
+          class="w-full h-[104.800px] py-[12px] px-[16px] border-b-[1px] border-[rgb(240,240,241)] shadow-1 flex flex-col items-start lg:hidden"
+        >
           <!-- search bar -->
-          <div class="bg-neutral-000 grow flex justify-start items-center">
+          <div class="w-full h-[40px] rounded-full bg-[rgb(240,240,241)]">
             <div
-              class="w-[600px] h-[40px] bg-neutral-100 rounded-[8px] flex justify-start items-center px-[16px]"
+              class="w-full h-[36px] px-[12px] pt-[5px] flex flex-row items-center justify-start"
             >
-              <div class="cursor-pointer">
+              <div class="w-[24px] h-[24px] flex items-center justify-center">
                 <svg
                   xmlns:xlink="http://www.w3.org/1999/xlink"
                   xmlns="http://www.w3.org/2000/svg"
-                  style="width: 24px; height: 24px; fill: #a1a3a8"
+                  style="width: 24px; height: 24px; fill: rgb(161, 163, 168)"
                   width="24"
                   height="24"
                 >
@@ -220,61 +104,38 @@
                   </g>
                 </svg>
               </div>
-              <input
-                class="font-iranYekan px-[16px] border-none outline-none grow text-[12px]"
-                type="text"
-                placeholder="جستجو"
-              />
+              <div class="px-[8px] grow">
+                <div class="w-[125px] flex items-center justify-between">
+                  <div
+                    class="font-iranYekanBold text-[14px] leading-[30.1px] text-[rgb(162,165,169)]"
+                  >
+                    جستجو در
+                  </div>
+                  <img
+                    src="public/svg/mobile-header-logo.svg"
+                    alt="فروشگاه دیجی کالا"
+                  />
+                </div>
+              </div>
+              <div
+                class="w-[24px] h-[24px] font-cube bg-amber-300 flex items-center justify-center before:content-['']"
+                data-icon-name="cube-action-ai-photo"
+                data-icon=""
+              >
+                <!-- i cant use this font type in a correct way so i have to ask it -->
+              </div>
             </div>
           </div>
           <!-- search bar end -->
-          <!-- account section including register and shopping cart-->
-          <div class="w-[200px] flex items-center justify-start">
-            <!-- register section -->
-            <a
-              class="w-[135px] h-[40px] px-[16px] py-[8px] rounded-[8px] border-[0.8px] border-solid border-[rgb(224,224,226)] font-iranYekanBold text-[12px] flex flex-row items-center"
-              href="./register-page.html"
-            >
-              <span class="grow">
-                <svg
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  xmlns="http://www.w3.org/2000/svg"
-                  style="width: 24px; height: 24px; fill: rgb(66, 71, 80)"
-                  width="24"
-                  height="24"
-                >
-                  <defs>
-                    <symbol
-                      id="registerationSignIn"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M16 15h-2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h6a2 2 0 012 2v2h2V7a4 4 0 00-4-4H6a4 4 0 00-4 4v10a4 4 0 004 4h6a4 4 0 004-4v-2zm6-4H9.414l2.293-2.293-1.414-1.414-4 4a1 1 0 000 1.414l4 4 1.414-1.414L9.414 13H22v-2z"
-                        clip-rule="evenodd"
-                      ></path>
-                    </symbol>
-                  </defs>
-                  <g>
-                    <path
-                      fill-rule="evenodd"
-                      d="M16 15h-2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h6a2 2 0 012 2v2h2V7a4 4 0 00-4-4H6a4 4 0 00-4 4v10a4 4 0 004 4h6a4 4 0 004-4v-2zm6-4H9.414l2.293-2.293-1.414-1.414-4 4a1 1 0 000 1.414l4 4 1.414-1.414L9.414 13H22v-2z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </g>
-                </svg>
-              </span>
-              <span class="text-[#0C0C0C]"
-                >ورود
-                <span class="font-iranYekanExtraBold text-[14px]">|</span>
-                ثبت‌نام</span
-              >
-            </a>
-            <!-- register section end -->
-            <span class="bg-neutral-200 mx-3 block w-[1px] h-[24px]"></span>
-            <!-- shopping cart -->
-            <a href="#" class="p-[8px]">
+          <!-- location -->
+          <div class="w-full h-[24px] mt-[14px] mb-[2px] flex flex-row">
+            <div class="flex flex-row items-center grow">
+              <div class="w-[20px] h-full bg-amber-700"></div>
+              <div class="font-iranYekan text-[12px] leading-[21.6px] pr-[8px]">
+                انتخاب استان و شهر
+              </div>
+            </div>
+            <div class="w-[24px] h-[24px] pt-[0.5px]">
               <svg
                 xmlns:xlink="http://www.w3.org/1999/xlink"
                 xmlns="http://www.w3.org/2000/svg"
@@ -284,487 +145,630 @@
               >
                 <defs>
                   <symbol
-                    id="cartOff"
+                    id="chevronLeft"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                   >
                     <path
-                      fill-rule="evenodd"
-                      d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z"
-                      clip-rule="evenodd"
+                      d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
                     ></path>
                   </symbol>
                 </defs>
                 <g>
                   <path
-                    fill-rule="evenodd"
-                    d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z"
-                    clip-rule="evenodd"
+                    d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
                   ></path>
                 </g>
               </svg>
-            </a>
-            <!-- shopping cart -->
-          </div>
-          <!-- account end -->
-        </div>
-        <!-- header-bar end -->
-        <!-- nav-bar including menu and header-location -->
-        <nav class="w-full h-[40px] pr-[24px] pl-[16px] flex flex-row">
-          <!-- menu including categories, nav-items, support-section -->
-          <div class="w-[977px] h-full grow flex flex-row items-center">
-            <!-- categories title -->
-            <div
-              class="w-[142.05px] h-full flex flex-row items-center justify-start"
-            >
-              <div class="ml-1">
-                <svg
-                  style="width: 20px; height: 20px; fill: rgb(66, 71, 80)"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M19 8V6H5v2h14zm0 3v2H5v-2h14zm0 5v2H5v-2h14z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </div>
-              <div
-                class="font-iranYekanBold text-[rgb(63,64,100)] text-[14px] leading-[30.1px]"
-              >
-                دسته‌بندی کالاها
-              </div>
-              <div
-                class="w-[0.5px] h-[16px] bg-neutral-200 flex items-center mr-[19.5px]"
-              ></div>
             </div>
-            <!-- categories title end -->
-            <!-- nav-items -->
-            <div class="h-full flex flex-row items-center justify-start">
-              <div class="h-full px-[12px] flex flex-row items-center">
-                <div class="flex items-center ml-1 cursor-pointer">
+          </div>
+          <!-- location end -->
+        </div>
+        <!-- mobile header end -->
+        <!-- desktop header including header-bar and nav -->
+        <div
+          class="hidden lg:block w-full h-[108px] shadow-[0_0.5px_2px_rgba(0,0,0,0.3)]"
+        >
+          <!-- header bar  header logo, search bar and register section-->
+          <div
+            id="header-bar"
+            class="w-full h-[68px] bg-neutral-000 relative z-5 flex flex-row px-[16px]"
+          >
+            <!-- header logo -->
+            <div class="bg-neutral-000 w-[225px] flex justify-end items-center">
+              <a class="ml-5" href="#" id="header-logo">
+                <div class="w-[195px] h-[30px]">
+                  <img
+                    class="w-full inline-block h-full object-contain"
+                    src="public/svg/desktop-header-logo.svg"
+                    alt="دیجی کالا"
+                  />
+                </div>
+              </a>
+            </div>
+            <!-- header logo end -->
+            <!-- search bar -->
+            <div class="bg-neutral-000 grow flex justify-start items-center">
+              <div
+                class="w-[600px] h-[40px] bg-neutral-100 rounded-[8px] flex justify-start items-center px-[16px]"
+              >
+                <div class="cursor-pointer">
                   <svg
-                    width="18"
-                    height="18"
-                    fill="rgb(161, 163, 168)"
-                    viewBox="0 0 18 18"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
                     xmlns="http://www.w3.org/2000/svg"
+                    style="width: 24px; height: 24px; fill: #a1a3a8"
+                    width="24"
+                    height="24"
                   >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      transform="scale(0.75) translate(0,0)"
-                      d="M15.112 2.234c.687.231 1.153.525 1.895 1.171l.536.474.109.09.142.104.653.42c.837.54 1.244.9 1.663 1.495.381.542.579 1 .794 1.841l.226.941.053.185.049.142.285.719c.36.914.483 1.457.483 2.184 0 .728-.124 1.27-.483 2.184l-.246.615-.08.22-.06.211-.227.941c-.215.842-.413 1.3-.795 1.843-.416.59-.822.95-1.646 1.483l-.67.431-.14.104-.176.147-.471.417c-.742.646-1.208.94-1.898 1.172-.688.23-1.206.272-2.224.199l-.687-.052-.197-.006-.086.001-.212.01-.586.047c-1.018.073-1.537.03-2.23-.201-.686-.231-1.152-.524-1.893-1.17l-.594-.522-.144-.111-.103-.072-.619-.395c-.821-.532-1.229-.894-1.643-1.483-.417-.593-.614-1.085-.855-2.085l-.146-.621-.061-.225-.06-.179-.285-.719C2.123 13.27 2 12.729 2 12c0-.727.124-1.27.483-2.184l.285-.717.082-.258.039-.147.146-.621.118-.46c.195-.707.39-1.131.737-1.624.414-.59.82-.95 1.643-1.483l.552-.352.153-.104.16-.123.124-.105.47-.417c.743-.646 1.209-.94 1.897-1.171.69-.232 1.209-.274 2.227-.2l.7.052.228.005.275-.013.564-.044c1.02-.074 1.539-.031 2.229.2zm-1.931 1.784l-.89.065c-.105.006-.2.008-.291.008l-.275-.007-.156-.009-.563-.044-.385-.024c-.514-.024-.767.012-1.094.122l-.108.039c-.35.132-.62.313-1.138.767l-.55.486-.155.125-.142.107-.23.158-.72.462c-.517.343-.733.545-.958.866-.23.326-.347.596-.51 1.247l-.193.815-.05.19-.05.17-.094.271-.345.87C4.061 11.287 4 11.594 4 12l.002.12c.012.35.082.65.282 1.18l.37.934.07.21.074.257.219.914c.162.65.28.92.51 1.247.247.352.485.564 1.121.973l.559.356c.118.077.204.138.296.207l.073.056.241.2.464.411c.569.5.839.67 1.241.805.404.135.694.159 1.484.1l.306-.025.555-.034.133-.002c.09 0 .186.003.291.008l.166.01.536.043c.79.059 1.08.035 1.478-.098.407-.138.678-.308 1.247-.807l.387-.344.212-.182.181-.142.186-.133.108-.073.721-.462c.518-.342.735-.546.96-.866.25-.357.367-.644.554-1.431l.091-.391c.032-.138.059-.245.084-.34l.075-.26.094-.273.345-.869c.223-.587.284-.894.284-1.299 0-.405-.061-.712-.284-1.299l-.37-.934-.095-.293-.075-.274-.149-.631-.098-.39c-.109-.402-.203-.64-.34-.865l-.115-.175c-.226-.32-.441-.523-.96-.866l-.624-.4a7.664 7.664 0 01-.255-.17l-.212-.157-.155-.126-.697-.613c-.42-.357-.669-.516-.977-.634l-.218-.074c-.322-.098-.603-.12-1.195-.081zM16 15.5a1.5 1.5 0 10-3 0 1.5 1.5 0 003 0zm-1.8-8.1l1.6 1.2-6 8-1.6-1.2 6-8zM11 8.5a1.5 1.5 0 10-3 0 1.5 1.5 0 003 0z"
-                      fill="rgb(161, 163, 168)"
-                    />
+                    <defs>
+                      <symbol
+                        id="searchSearch"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.5 18a7.5 7.5 0 115.973-2.963l4.369 4.246-1.394 1.434-4.387-4.263A7.467 7.467 0 0110.5 18zm5.5-7.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </symbol>
+                    </defs>
+                    <g>
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.5 18a7.5 7.5 0 115.973-2.963l4.369 4.246-1.394 1.434-4.387-4.263A7.467 7.467 0 0110.5 18zm5.5-7.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </g>
                   </svg>
                 </div>
-                <div
-                  class="font-iranYekan text-[rgb(98,102,109)] text-[12px] cursor-pointer"
-                >
-                  شگفت‌انگیزها
-                </div>
+                <input
+                  class="font-iranYekan px-[16px] border-none outline-none grow text-[12px]"
+                  type="text"
+                  placeholder="جستجو"
+                />
               </div>
-              <div class="h-full px-[12px] flex flex-row items-center">
-                <div class="w-[18px] h-[18px] bg-amber-200 ml-1"></div>
-                <div
-                  class="font-iranYekan text-[rgb(98,102,109)] text-[12px] cursor-pointer"
-                >
-                  سوپرمارکت
-                </div>
-              </div>
-              <div class="h-full px-[12px] flex flex-row items-center">
-                <div class="w-[18px] h-[18px] bg-amber-200 ml-1"></div>
-                <div
-                  class="font-iranYekan text-[rgb(98,102,109)] text-[12px] cursor-pointer"
-                >
-                  طلای دیجیتال
-                </div>
-              </div>
-              <div class="h-full px-[12px] flex flex-row items-center">
-                <div class="flex items-center ml-1">
+            </div>
+            <!-- search bar end -->
+            <!-- account section including register and shopping cart-->
+            <div class="w-[200px] flex items-center justify-start">
+              <!-- register section -->
+              <a
+                class="w-[135px] h-[40px] px-[16px] py-[8px] rounded-[8px] border-[0.8px] border-solid border-[rgb(224,224,226)] font-iranYekanBold text-[12px] flex flex-row items-center"
+                href="./register-page.html"
+              >
+                <span class="grow">
                   <svg
-                    width="18"
-                    height="18"
-                    fill="rgb(161, 163, 168)"
-                    viewBox="0 0 24 24"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
                     xmlns="http://www.w3.org/2000/svg"
+                    style="width: 24px; height: 24px; fill: rgb(66, 71, 80)"
+                    width="24"
+                    height="24"
+                  >
+                    <defs>
+                      <symbol
+                        id="registerationSignIn"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M16 15h-2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h6a2 2 0 012 2v2h2V7a4 4 0 00-4-4H6a4 4 0 00-4 4v10a4 4 0 004 4h6a4 4 0 004-4v-2zm6-4H9.414l2.293-2.293-1.414-1.414-4 4a1 1 0 000 1.414l4 4 1.414-1.414L9.414 13H22v-2z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </symbol>
+                    </defs>
+                    <g>
+                      <path
+                        fill-rule="evenodd"
+                        d="M16 15h-2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h6a2 2 0 012 2v2h2V7a4 4 0 00-4-4H6a4 4 0 00-4 4v10a4 4 0 004 4h6a4 4 0 004-4v-2zm6-4H9.414l2.293-2.293-1.414-1.414-4 4a1 1 0 000 1.414l4 4 1.414-1.414L9.414 13H22v-2z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </g>
+                  </svg>
+                </span>
+                <span class="text-[#0C0C0C]"
+                  >ورود
+                  <span class="font-iranYekanExtraBold text-[14px]">|</span>
+                  ثبت‌نام</span
+                >
+              </a>
+              <!-- register section end -->
+              <span class="bg-neutral-200 mx-3 block w-[1px] h-[24px]"></span>
+              <!-- shopping cart -->
+              <a href="#" class="p-[8px]">
+                <svg
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="width: 24px; height: 24px; fill: rgb(66, 71, 80)"
+                  width="24"
+                  height="24"
+                >
+                  <defs>
+                    <symbol
+                      id="cartOff"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </symbol>
+                  </defs>
+                  <g>
+                    <path
+                      fill-rule="evenodd"
+                      d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </g>
+                </svg>
+              </a>
+              <!-- shopping cart -->
+            </div>
+            <!-- account end -->
+          </div>
+          <!-- header-bar end -->
+          <!-- nav-bar including menu and header-location -->
+          <nav class="w-full h-[40px] pr-[24px] pl-[16px] flex flex-row">
+            <!-- menu including categories, nav-items, support-section -->
+            <div class="w-[977px] h-full grow flex flex-row items-center">
+              <!-- categories title -->
+              <div
+                class="w-[142.05px] h-full flex flex-row items-center justify-start"
+              >
+                <div class="ml-1">
+                  <svg
+                    style="width: 20px; height: 20px; fill: rgb(66, 71, 80)"
+                    viewBox="0 0 24 24"
                   >
                     <path
                       fill-rule="evenodd"
+                      d="M19 8V6H5v2h14zm0 3v2H5v-2h14zm0 5v2H5v-2h14z"
                       clip-rule="evenodd"
-                      trasform="scale(0.75) translate(0,0)"
-                      d="M12.015 9.105c.222.397.41.73.466.842.361.724.519 1.31.519 2.053a2 2 0 01-4 0l.003-4.557c0-.953-1.206-1.367-1.79-.613C5.087 9.572 4 11.906 4 13.889 4 18.365 7.578 22 12 22c4.422 0 8-3.635 8-8.111 0-2.968-2.45-6.78-7.295-11.598a1 1 0 00-1.6.262c-.807 1.615-.807 3.28 0 4.894.178.356.582 1.076.91 1.658zM7 12a4 4 0 108 0c0-1.078-.238-1.962-.73-2.947-.079-.156-.31-.569-.566-1.024a50.532 50.532 0 01-.81-1.476c-.273-.546-.404-1.079-.393-1.612C16.18 8.811 18 11.834 18 13.889 18 17.267 15.31 20 12 20s-6-2.733-6-6.111c0-.87.33-1.925 1-3.154V12z"
                     ></path>
                   </svg>
                 </div>
                 <div
-                  class="font-iranYekan text-[rgb(98,102,109)] text-[12px] cursor-pointer"
+                  class="font-iranYekanBold text-[rgb(63,64,100)] text-[14px] leading-[30.1px]"
                 >
-                  پرفروش‌ترین‌ها
+                  دسته‌بندی کالاها
+                </div>
+                <div
+                  class="w-[0.5px] h-[16px] bg-neutral-200 flex items-center mr-[19.5px]"
+                ></div>
+              </div>
+              <!-- categories title end -->
+              <!-- nav-items -->
+              <div class="h-full flex flex-row items-center justify-start">
+                <div class="h-full px-[12px] flex flex-row items-center">
+                  <div class="flex items-center ml-1 cursor-pointer">
+                    <svg
+                      width="18"
+                      height="18"
+                      fill="rgb(161, 163, 168)"
+                      viewBox="0 0 18 18"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        transform="scale(0.75) translate(0,0)"
+                        d="M15.112 2.234c.687.231 1.153.525 1.895 1.171l.536.474.109.09.142.104.653.42c.837.54 1.244.9 1.663 1.495.381.542.579 1 .794 1.841l.226.941.053.185.049.142.285.719c.36.914.483 1.457.483 2.184 0 .728-.124 1.27-.483 2.184l-.246.615-.08.22-.06.211-.227.941c-.215.842-.413 1.3-.795 1.843-.416.59-.822.95-1.646 1.483l-.67.431-.14.104-.176.147-.471.417c-.742.646-1.208.94-1.898 1.172-.688.23-1.206.272-2.224.199l-.687-.052-.197-.006-.086.001-.212.01-.586.047c-1.018.073-1.537.03-2.23-.201-.686-.231-1.152-.524-1.893-1.17l-.594-.522-.144-.111-.103-.072-.619-.395c-.821-.532-1.229-.894-1.643-1.483-.417-.593-.614-1.085-.855-2.085l-.146-.621-.061-.225-.06-.179-.285-.719C2.123 13.27 2 12.729 2 12c0-.727.124-1.27.483-2.184l.285-.717.082-.258.039-.147.146-.621.118-.46c.195-.707.39-1.131.737-1.624.414-.59.82-.95 1.643-1.483l.552-.352.153-.104.16-.123.124-.105.47-.417c.743-.646 1.209-.94 1.897-1.171.69-.232 1.209-.274 2.227-.2l.7.052.228.005.275-.013.564-.044c1.02-.074 1.539-.031 2.229.2zm-1.931 1.784l-.89.065c-.105.006-.2.008-.291.008l-.275-.007-.156-.009-.563-.044-.385-.024c-.514-.024-.767.012-1.094.122l-.108.039c-.35.132-.62.313-1.138.767l-.55.486-.155.125-.142.107-.23.158-.72.462c-.517.343-.733.545-.958.866-.23.326-.347.596-.51 1.247l-.193.815-.05.19-.05.17-.094.271-.345.87C4.061 11.287 4 11.594 4 12l.002.12c.012.35.082.65.282 1.18l.37.934.07.21.074.257.219.914c.162.65.28.92.51 1.247.247.352.485.564 1.121.973l.559.356c.118.077.204.138.296.207l.073.056.241.2.464.411c.569.5.839.67 1.241.805.404.135.694.159 1.484.1l.306-.025.555-.034.133-.002c.09 0 .186.003.291.008l.166.01.536.043c.79.059 1.08.035 1.478-.098.407-.138.678-.308 1.247-.807l.387-.344.212-.182.181-.142.186-.133.108-.073.721-.462c.518-.342.735-.546.96-.866.25-.357.367-.644.554-1.431l.091-.391c.032-.138.059-.245.084-.34l.075-.26.094-.273.345-.869c.223-.587.284-.894.284-1.299 0-.405-.061-.712-.284-1.299l-.37-.934-.095-.293-.075-.274-.149-.631-.098-.39c-.109-.402-.203-.64-.34-.865l-.115-.175c-.226-.32-.441-.523-.96-.866l-.624-.4a7.664 7.664 0 01-.255-.17l-.212-.157-.155-.126-.697-.613c-.42-.357-.669-.516-.977-.634l-.218-.074c-.322-.098-.603-.12-1.195-.081zM16 15.5a1.5 1.5 0 10-3 0 1.5 1.5 0 003 0zm-1.8-8.1l1.6 1.2-6 8-1.6-1.2 6-8zM11 8.5a1.5 1.5 0 10-3 0 1.5 1.5 0 003 0z"
+                        fill="rgb(161, 163, 168)"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="font-iranYekan text-[rgb(98,102,109)] text-[12px] cursor-pointer"
+                  >
+                    شگفت‌انگیزها
+                  </div>
+                </div>
+                <div class="h-full px-[12px] flex flex-row items-center">
+                  <div class="w-[18px] h-[18px] bg-amber-200 ml-1"></div>
+                  <div
+                    class="font-iranYekan text-[rgb(98,102,109)] text-[12px] cursor-pointer"
+                  >
+                    سوپرمارکت
+                  </div>
+                </div>
+                <div class="h-full px-[12px] flex flex-row items-center">
+                  <div class="w-[18px] h-[18px] bg-amber-200 ml-1"></div>
+                  <div
+                    class="font-iranYekan text-[rgb(98,102,109)] text-[12px] cursor-pointer"
+                  >
+                    طلای دیجیتال
+                  </div>
+                </div>
+                <div class="h-full px-[12px] flex flex-row items-center">
+                  <div class="flex items-center ml-1">
+                    <svg
+                      width="18"
+                      height="18"
+                      fill="rgb(161, 163, 168)"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        trasform="scale(0.75) translate(0,0)"
+                        d="M12.015 9.105c.222.397.41.73.466.842.361.724.519 1.31.519 2.053a2 2 0 01-4 0l.003-4.557c0-.953-1.206-1.367-1.79-.613C5.087 9.572 4 11.906 4 13.889 4 18.365 7.578 22 12 22c4.422 0 8-3.635 8-8.111 0-2.968-2.45-6.78-7.295-11.598a1 1 0 00-1.6.262c-.807 1.615-.807 3.28 0 4.894.178.356.582 1.076.91 1.658zM7 12a4 4 0 108 0c0-1.078-.238-1.962-.73-2.947-.079-.156-.31-.569-.566-1.024a50.532 50.532 0 01-.81-1.476c-.273-.546-.404-1.079-.393-1.612C16.18 8.811 18 11.834 18 13.889 18 17.267 15.31 20 12 20s-6-2.733-6-6.111c0-.87.33-1.925 1-3.154V12z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div
+                    class="font-iranYekan text-[rgb(98,102,109)] text-[12px] cursor-pointer"
+                  >
+                    پرفروش‌ترین‌ها
+                  </div>
+                </div>
+                <div class="h-full px-[12px] flex flex-row items-center">
+                  <div class="w-[18px] h-[18px] bg-amber-200 ml-1"></div>
+                  <div
+                    class="font-iranYekan text-[rgb(98,102,109)] text-[12px] cursor-pointer"
+                  >
+                    خرید کالای کارکرده
+                  </div>
                 </div>
               </div>
-              <div class="h-full px-[12px] flex flex-row items-center">
-                <div class="w-[18px] h-[18px] bg-amber-200 ml-1"></div>
+              <!-- nav-items end -->
+              <div class="w-[1px] h-[16px] bg-neutral-200"></div>
+              <!-- support-section -->
+              <div class="h-full flex flex-row items-center">
                 <div
-                  class="font-iranYekan text-[rgb(98,102,109)] text-[12px] cursor-pointer"
-                >
-                  خرید کالای کارکرده
-                </div>
-              </div>
-            </div>
-            <!-- nav-items end -->
-            <div class="w-[1px] h-[16px] bg-neutral-200"></div>
-            <!-- support-section -->
-            <div class="h-full flex flex-row items-center">
-              <div
-                class="h-full pr-[11px] pl-[12px] flex flex-row items-center"
-              >
-                <div
-                  class="font-iranYekan text-[rgb(98,102,109)] text-[12px] whitespace-nowrap cursor-pointer"
-                >
-                  سوالی دارید؟
-                </div>
-              </div>
-              <div class="h-full px-[12px] flex flex-row items-center">
-                <div
-                  class="font-iranYekan text-[rgb(98,102,109)] text-[12px] whitespace-nowrap cursor-pointer"
-                >
-                  در دیجی‌کالا بفروشید!
-                </div>
-              </div>
-            </div>
-            <!-- support-section end -->
-          </div>
-          <!-- menu end -->
-          <!-- header-location -->
-          <div class="w-[172.31px] h-full pb-1">
-            <div
-              class="w-full h-full px-[12px] py-[4px] bg-[rgba(245,127,23,0.07)] rounded-full flex items-center cursor-pointer justify-between"
-            >
-              <div class="w-[20px] h-[20px] bg-amber-300"></div>
-              <div
-                class="font-iranYekanBold text-[12px] text-[rgb(245,127,23)]"
-              >
-                شهر خود را انتخاب کنید
-              </div>
-            </div>
-          </div>
-          <!-- header-location end -->
-        </nav>
-        <!-- nav-bar end -->
-      </div>
-      <!-- desktop header end -->
-    </header>
-    <!-- header end -->
-    <!-- main  -->
-    <main class="w-full m-0 p-0 box-border flex flex-col justify-between">
-      <!-- story-bar -->
-      <div
-        class="w-full h-[151.38px] pt-4 flex flex-row flex-nowrap overflow-hidden"
-        id="story-bar"
-      >
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div
-              class="swiper-slide h-full mr-2 ml-3 bg-white! flex items-center justify-center"
-            >
-              <div
-                class="w-full aspect-square bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] relative rounded-full flex items-center justify-center"
-              >
-                <div
-                  class="w-[80px] aspect-square bg-white rounded-full flex items-center justify-center"
+                  class="h-full pr-[11px] pl-[12px] flex flex-row items-center"
                 >
                   <div
-                    class="w-[74px] aspect-square bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] rounded-full flex items-center justify-center"
+                    class="font-iranYekan text-[rgb(98,102,109)] text-[12px] whitespace-nowrap cursor-pointer"
+                  >
+                    سوالی دارید؟
+                  </div>
+                </div>
+                <div class="h-full px-[12px] flex flex-row items-center">
+                  <div
+                    class="font-iranYekan text-[rgb(98,102,109)] text-[12px] whitespace-nowrap cursor-pointer"
+                  >
+                    در دیجی‌کالا بفروشید!
+                  </div>
+                </div>
+              </div>
+              <!-- support-section end -->
+            </div>
+            <!-- menu end -->
+            <!-- header-location -->
+            <div class="w-[172.31px] h-full pb-1">
+              <div
+                class="w-full h-full px-[12px] py-[4px] bg-[rgba(245,127,23,0.07)] rounded-full flex items-center cursor-pointer justify-between"
+              >
+                <div class="w-[20px] h-[20px] bg-amber-300"></div>
+                <div
+                  class="font-iranYekanBold text-[12px] text-[rgb(245,127,23)]"
+                >
+                  شهر خود را انتخاب کنید
+                </div>
+              </div>
+            </div>
+            <!-- header-location end -->
+          </nav>
+          <!-- nav-bar end -->
+        </div>
+        <!-- desktop header end -->
+      </header>
+      <!-- header end -->
+      <!-- main  -->
+      <main class="w-full m-0 p-0 box-border flex flex-col justify-between">
+        <!-- story-bar -->
+        <div
+          class="w-full h-[151.38px] pt-4 flex flex-row flex-nowrap overflow-hidden"
+          id="story-bar"
+        >
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div
+                class="swiper-slide h-full mr-2 ml-3 bg-white! flex items-center justify-center"
+              >
+                <div
+                  class="w-full aspect-square bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] relative rounded-full flex items-center justify-center"
+                >
+                  <div
+                    class="w-[80px] aspect-square bg-white rounded-full flex items-center justify-center"
                   >
                     <div
-                      class="w-[64px] aspect-square overflow-hidden flex items-center justify-center rounded-full"
+                      class="w-[74px] aspect-square bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] rounded-full flex items-center justify-center"
                     >
-                      <img src="public/images/story-bar/1.png" alt="" />
+                      <div
+                        class="w-[64px] aspect-square overflow-hidden flex items-center justify-center rounded-full"
+                      >
+                        <img src="public/images/story-bar/1.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="font-iranYekanBold text-[rgb(255,255,255)] text-[10px] leading-[21.7px] px-1.5 border-2 rounded-[8px] border-[rgb(255,255,255)] bg-[rgb(224,61,150)] mx-auto w-max absolute left-0 right-0 top-16.5"
+                  >
+                    زنده
+                  </div>
+                </div>
+                <div
+                  class="mt-2 font-iranYekan text-[rgb(35,37,78)] text-[10px] leading-[21.7px] text-center"
+                >
+                  مشاوره خرید لوازم آرایشی و بهداشتی
+                </div>
+              </div>
+              <div
+                class="swiper-slide h-full ml-3 bg-white! flex items-center justify-center"
+              >
+                <div
+                  class="w-full aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center relative"
+                >
+                  <div
+                    class="w-[80px] aspect-square rounded-full bg-white flex items-center justify-center"
+                  >
+                    <div
+                      class="w-[74px] aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center overflow-hidden"
+                    >
+                      <img src="public/images/story-bar/2.png" alt="" />
+                    </div>
+                  </div>
+                  <div
+                    class="w-max px-1.5 mx-auto rounded-[8px] bg-[rgb(253,236,245)] font-iranYekanBold text-[10px] leading-[21.7px] text-[rgb(224,62,151)] border-2 border-[rgb(255,255,255)] absolute left-0 right-0 top-16.5"
+                  >
+                    ۱۹:۰۰
+                  </div>
+                </div>
+                <div
+                  class="mt-2 font-iranYekan text-center text-[10px] leading-[21.7px] text-[rgb(35,37,78)]"
+                >
+                  مشاوره خرید ابزار خانگی و صنعتی
+                </div>
+              </div>
+              <div
+                class="swiper-slide h-full ml-3 bg-white! flex items-center justify-center"
+              >
+                <div
+                  class="w-full aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center relative"
+                >
+                  <div
+                    class="w-[80px] aspect-square rounded-full bg-white flex items-center justify-center"
+                  >
+                    <div
+                      class="w-[74px] aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center overflow-hidden"
+                    >
+                      <img src="public/images/story-bar/3.png" alt="" />
+                    </div>
+                  </div>
+                  <div
+                    class="w-max px-1.5 mx-auto rounded-[8px] bg-[rgb(253,236,245)] font-iranYekanBold text-[10px] leading-[21.7px] text-[rgb(224,62,151)] border-2 border-[rgb(255,255,255)] absolute left-0 right-0 top-16.5"
+                  >
+                    ۲۰:۰۰
+                  </div>
+                </div>
+                <div
+                  class="mt-2 font-iranYekan text-center text-[10px] leading-[21.7px] text-[rgb(35,37,78)]"
+                >
+                  مشاوره خرید لوازم خانگی برقی
+                </div>
+              </div>
+              <div
+                class="swiper-slide h-full ml-3 bg-white! flex items-center justify-center"
+              >
+                <div
+                  class="w-full aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center relative"
+                >
+                  <div
+                    class="w-[80px] aspect-square rounded-full bg-white flex items-center justify-center"
+                  >
+                    <div
+                      class="w-[74px] aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center overflow-hidden"
+                    >
+                      <img src="public/images/story-bar/4.png" alt="" />
+                    </div>
+                  </div>
+                  <div
+                    class="w-max px-1.5 mx-auto rounded-[8px] bg-[rgb(253,236,245)] font-iranYekanBold text-[10px] leading-[21.7px] text-[rgb(224,62,151)] border-2 border-[rgb(255,255,255)] absolute left-0 right-0 top-16.5"
+                  >
+                    ۲۱:۰۰
+                  </div>
+                </div>
+                <div
+                  class="mt-2 font-iranYekan text-center text-[10px] leading-[21.7px] text-[rgb(35,37,78)]"
+                >
+                  مشاوره خرید موبایل و کالای الکترونیک
+                </div>
+              </div>
+              <div
+                class="swiper-slide h-full ml-3 bg-white! flex items-center justify-center"
+              >
+                <div
+                  class="w-full aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center relative"
+                >
+                  <div
+                    class="w-[80px] aspect-square rounded-full bg-white flex items-center justify-center"
+                  >
+                    <div
+                      class="w-[74px] aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center overflow-hidden"
+                    >
+                      <img src="public/images/story-bar/6.png" alt="" />
+                    </div>
+                  </div>
+                  <div
+                    class="w-max px-1.5 mx-auto rounded-[8px] bg-[rgb(253,236,245)] font-iranYekanBold text-[10px] leading-[21.7px] text-[rgb(224,62,151)] border-2 border-[rgb(255,255,255)] absolute left-0 right-0 top-16.5"
+                  >
+                    ۲۲:۰۰
+                  </div>
+                </div>
+                <div
+                  class="mt-2 font-iranYekan text-center text-[10px] leading-[21.7px] text-[rgb(35,37,78)]"
+                >
+                  مشاوره خرید موبایل و کالای الکترونیک
+                </div>
+              </div>
+              <div
+                class="swiper-slide h-full ml-3 bg-white! flex items-center justify-center"
+              >
+                <div
+                  class="w-full aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center relative"
+                >
+                  <div
+                    class="w-[80px] aspect-square rounded-full bg-white flex items-center justify-center"
+                  >
+                    <div
+                      class="w-[74px] aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center overflow-hidden"
+                    >
+                      <img src="public/images/story-bar/7.png" alt="" />
                     </div>
                   </div>
                 </div>
                 <div
-                  class="font-iranYekanBold text-[rgb(255,255,255)] text-[10px] leading-[21.7px] px-1.5 border-2 rounded-[8px] border-[rgb(255,255,255)] bg-[rgb(224,61,150)] mx-auto w-max absolute left-0 right-0 top-16.5"
+                  class="mt-2 font-iranYekan text-center text-[10px] leading-[21.7px] text-[rgb(35,37,78)]"
                 >
-                  زنده
+                  ماگِ آتیش پاره!
                 </div>
               </div>
               <div
-                class="mt-2 font-iranYekan text-[rgb(35,37,78)] text-[10px] leading-[21.7px] text-center"
-              >
-                مشاوره خرید لوازم آرایشی و بهداشتی
-              </div>
-            </div>
-            <div
-              class="swiper-slide h-full ml-3 bg-white! flex items-center justify-center"
-            >
-              <div
-                class="w-full aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center relative"
+                class="swiper-slide h-full ml-3 bg-white! flex items-center justify-center"
               >
                 <div
-                  class="w-[80px] aspect-square rounded-full bg-white flex items-center justify-center"
+                  class="w-full aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center relative"
                 >
                   <div
-                    class="w-[74px] aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center overflow-hidden"
+                    class="w-[80px] aspect-square rounded-full bg-white flex items-center justify-center"
                   >
-                    <img src="public/images/story-bar/2.png" alt="" />
+                    <div
+                      class="w-[74px] aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center overflow-hidden"
+                    >
+                      <img src="public/images/story-bar/8.png" alt="" />
+                    </div>
                   </div>
                 </div>
                 <div
-                  class="w-max px-1.5 mx-auto rounded-[8px] bg-[rgb(253,236,245)] font-iranYekanBold text-[10px] leading-[21.7px] text-[rgb(224,62,151)] border-2 border-[rgb(255,255,255)] absolute left-0 right-0 top-16.5"
+                  class="mt-2 font-iranYekan text-center text-[10px] leading-[21.7px] text-[rgb(35,37,78)]"
                 >
-                  ۱۹:۰۰
+                  دماسنج یا فلاسک!
                 </div>
               </div>
               <div
-                class="mt-2 font-iranYekan text-center text-[10px] leading-[21.7px] text-[rgb(35,37,78)]"
-              >
-                مشاوره خرید ابزار خانگی و صنعتی
-              </div>
-            </div>
-            <div
-              class="swiper-slide h-full ml-3 bg-white! flex items-center justify-center"
-            >
-              <div
-                class="w-full aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center relative"
+                class="swiper-slide h-full ml-3 bg-white! flex items-center justify-center"
               >
                 <div
-                  class="w-[80px] aspect-square rounded-full bg-white flex items-center justify-center"
+                  class="w-full aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center relative"
                 >
                   <div
-                    class="w-[74px] aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center overflow-hidden"
+                    class="w-[80px] aspect-square rounded-full bg-white flex items-center justify-center"
                   >
-                    <img src="public/images/story-bar/3.png" alt="" />
+                    <div
+                      class="w-[74px] aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center overflow-hidden"
+                    >
+                      <img src="public/images/story-bar/9.png" alt="" />
+                    </div>
                   </div>
                 </div>
                 <div
-                  class="w-max px-1.5 mx-auto rounded-[8px] bg-[rgb(253,236,245)] font-iranYekanBold text-[10px] leading-[21.7px] text-[rgb(224,62,151)] border-2 border-[rgb(255,255,255)] absolute left-0 right-0 top-16.5"
+                  class="mt-2 font-iranYekan text-center text-[10px] leading-[21.7px] text-[rgb(35,37,78)]"
                 >
-                  ۲۰:۰۰
+                  پنجه بوکس صداگیر
                 </div>
               </div>
               <div
-                class="mt-2 font-iranYekan text-center text-[10px] leading-[21.7px] text-[rgb(35,37,78)]"
-              >
-                مشاوره خرید لوازم خانگی برقی
-              </div>
-            </div>
-            <div
-              class="swiper-slide h-full ml-3 bg-white! flex items-center justify-center"
-            >
-              <div
-                class="w-full aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center relative"
+                class="swiper-slide h-full ml-3 bg-white! flex items-center justify-center"
               >
                 <div
-                  class="w-[80px] aspect-square rounded-full bg-white flex items-center justify-center"
+                  class="w-full aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center relative"
                 >
                   <div
-                    class="w-[74px] aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center overflow-hidden"
+                    class="w-[80px] aspect-square rounded-full bg-white flex items-center justify-center"
                   >
-                    <img src="public/images/story-bar/4.png" alt="" />
+                    <div
+                      class="w-[74px] aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center overflow-hidden"
+                    >
+                      <img src="public/images/story-bar/9.png" alt="" />
+                    </div>
                   </div>
                 </div>
                 <div
-                  class="w-max px-1.5 mx-auto rounded-[8px] bg-[rgb(253,236,245)] font-iranYekanBold text-[10px] leading-[21.7px] text-[rgb(224,62,151)] border-2 border-[rgb(255,255,255)] absolute left-0 right-0 top-16.5"
+                  class="mt-2 font-iranYekan text-center text-[10px] leading-[21.7px] text-[rgb(35,37,78)]"
                 >
-                  ۲۱:۰۰
+                  پنجه بوکس صداگیر
                 </div>
               </div>
               <div
-                class="mt-2 font-iranYekan text-center text-[10px] leading-[21.7px] text-[rgb(35,37,78)]"
-              >
-                مشاوره خرید موبایل و کالای الکترونیک
-              </div>
-            </div>
-            <div
-              class="swiper-slide h-full ml-3 bg-white! flex items-center justify-center"
-            >
-              <div
-                class="w-full aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center relative"
+                class="swiper-slide h-full ml-3 bg-white! flex items-center justify-center"
               >
                 <div
-                  class="w-[80px] aspect-square rounded-full bg-white flex items-center justify-center"
+                  class="w-full aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center relative"
                 >
                   <div
-                    class="w-[74px] aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center overflow-hidden"
+                    class="w-[80px] aspect-square rounded-full bg-white flex items-center justify-center"
                   >
-                    <img src="public/images/story-bar/6.png" alt="" />
+                    <div
+                      class="w-[74px] aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center overflow-hidden"
+                    >
+                      <img src="public/images/story-bar/9.png" alt="" />
+                    </div>
                   </div>
                 </div>
                 <div
-                  class="w-max px-1.5 mx-auto rounded-[8px] bg-[rgb(253,236,245)] font-iranYekanBold text-[10px] leading-[21.7px] text-[rgb(224,62,151)] border-2 border-[rgb(255,255,255)] absolute left-0 right-0 top-16.5"
+                  class="mt-2 font-iranYekan text-center text-[10px] leading-[21.7px] text-[rgb(35,37,78)]"
                 >
-                  ۲۲:۰۰
+                  پنجه بوکس صداگیر
                 </div>
               </div>
               <div
-                class="mt-2 font-iranYekan text-center text-[10px] leading-[21.7px] text-[rgb(35,37,78)]"
-              >
-                مشاوره خرید موبایل و کالای الکترونیک
-              </div>
-            </div>
-            <div
-              class="swiper-slide h-full ml-3 bg-white! flex items-center justify-center"
-            >
-              <div
-                class="w-full aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center relative"
+                class="swiper-slide h-full ml-3 bg-white! flex items-center justify-center"
               >
                 <div
-                  class="w-[80px] aspect-square rounded-full bg-white flex items-center justify-center"
+                  class="w-full aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center relative"
                 >
                   <div
-                    class="w-[74px] aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center overflow-hidden"
+                    class="w-[80px] aspect-square rounded-full bg-white flex items-center justify-center"
                   >
-                    <img src="public/images/story-bar/7.png" alt="" />
+                    <div
+                      class="w-[74px] aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center overflow-hidden"
+                    >
+                      <img src="public/images/story-bar/9.png" alt="" />
+                    </div>
                   </div>
+                </div>
+                <div
+                  class="mt-2 font-iranYekan text-center text-[10px] leading-[21.7px] text-[rgb(35,37,78)]"
+                >
+                  پنجه بوکس صداگیر
                 </div>
               </div>
               <div
-                class="mt-2 font-iranYekan text-center text-[10px] leading-[21.7px] text-[rgb(35,37,78)]"
-              >
-                ماگِ آتیش پاره!
-              </div>
-            </div>
-            <div
-              class="swiper-slide h-full ml-3 bg-white! flex items-center justify-center"
-            >
-              <div
-                class="w-full aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center relative"
+                class="swiper-slide h-full ml-3 bg-white! flex items-center justify-center"
               >
                 <div
-                  class="w-[80px] aspect-square rounded-full bg-white flex items-center justify-center"
+                  class="w-full aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center relative"
                 >
                   <div
-                    class="w-[74px] aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center overflow-hidden"
+                    class="w-[80px] aspect-square rounded-full bg-white flex items-center justify-center"
                   >
-                    <img src="public/images/story-bar/8.png" alt="" />
+                    <div
+                      class="w-[74px] aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center overflow-hidden"
+                    >
+                      <img src="public/images/story-bar/9.png" alt="" />
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div
-                class="mt-2 font-iranYekan text-center text-[10px] leading-[21.7px] text-[rgb(35,37,78)]"
-              >
-                دماسنج یا فلاسک!
-              </div>
-            </div>
-            <div
-              class="swiper-slide h-full ml-3 bg-white! flex items-center justify-center"
-            >
-              <div
-                class="w-full aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center relative"
-              >
                 <div
-                  class="w-[80px] aspect-square rounded-full bg-white flex items-center justify-center"
+                  class="mt-2 font-iranYekan text-center text-[10px] leading-[21.7px] text-[rgb(35,37,78)]"
                 >
-                  <div
-                    class="w-[74px] aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center overflow-hidden"
-                  >
-                    <img src="public/images/story-bar/9.png" alt="" />
-                  </div>
+                  پنجه بوکس صداگیر
                 </div>
-              </div>
-              <div
-                class="mt-2 font-iranYekan text-center text-[10px] leading-[21.7px] text-[rgb(35,37,78)]"
-              >
-                پنجه بوکس صداگیر
-              </div>
-            </div>
-            <div
-              class="swiper-slide h-full ml-3 bg-white! flex items-center justify-center"
-            >
-              <div
-                class="w-full aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center relative"
-              >
-                <div
-                  class="w-[80px] aspect-square rounded-full bg-white flex items-center justify-center"
-                >
-                  <div
-                    class="w-[74px] aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center overflow-hidden"
-                  >
-                    <img src="public/images/story-bar/9.png" alt="" />
-                  </div>
-                </div>
-              </div>
-              <div
-                class="mt-2 font-iranYekan text-center text-[10px] leading-[21.7px] text-[rgb(35,37,78)]"
-              >
-                پنجه بوکس صداگیر
-              </div>
-            </div>
-            <div
-              class="swiper-slide h-full ml-3 bg-white! flex items-center justify-center"
-            >
-              <div
-                class="w-full aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center relative"
-              >
-                <div
-                  class="w-[80px] aspect-square rounded-full bg-white flex items-center justify-center"
-                >
-                  <div
-                    class="w-[74px] aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center overflow-hidden"
-                  >
-                    <img src="public/images/story-bar/9.png" alt="" />
-                  </div>
-                </div>
-              </div>
-              <div
-                class="mt-2 font-iranYekan text-center text-[10px] leading-[21.7px] text-[rgb(35,37,78)]"
-              >
-                پنجه بوکس صداگیر
-              </div>
-            </div>
-            <div
-              class="swiper-slide h-full ml-3 bg-white! flex items-center justify-center"
-            >
-              <div
-                class="w-full aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center relative"
-              >
-                <div
-                  class="w-[80px] aspect-square rounded-full bg-white flex items-center justify-center"
-                >
-                  <div
-                    class="w-[74px] aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center overflow-hidden"
-                  >
-                    <img src="public/images/story-bar/9.png" alt="" />
-                  </div>
-                </div>
-              </div>
-              <div
-                class="mt-2 font-iranYekan text-center text-[10px] leading-[21.7px] text-[rgb(35,37,78)]"
-              >
-                پنجه بوکس صداگیر
-              </div>
-            </div>
-            <div
-              class="swiper-slide h-full ml-3 bg-white! flex items-center justify-center"
-            >
-              <div
-                class="w-full aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center relative"
-              >
-                <div
-                  class="w-[80px] aspect-square rounded-full bg-white flex items-center justify-center"
-                >
-                  <div
-                    class="w-[74px] aspect-square rounded-full bg-[linear-gradient(315deg,#e03d96,#7d4c9e)] flex items-center justify-center overflow-hidden"
-                  >
-                    <img src="public/images/story-bar/9.png" alt="" />
-                  </div>
-                </div>
-              </div>
-              <div
-                class="mt-2 font-iranYekan text-center text-[10px] leading-[21.7px] text-[rgb(35,37,78)]"
-              >
-                پنجه بوکس صداگیر
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- story-bar end -->
-    </main>
-    <!-- main end  -->
+        <!-- story-bar end -->
+      </main>
+      <!-- main end  -->
+    </div>
+    <!-- container end -->
     <script src="node_modules/swiper/swiper-bundle.min.js"></script>
     <script>
       var swiper = new Swiper(".mySwiper", {
