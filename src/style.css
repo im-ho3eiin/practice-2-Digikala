@@ -8,7 +8,7 @@
   --font-iranYekanExtraBold: iranYekanExtraBold;
 }
 
-#story-bar {
+.story-bar {
   .swiper {
     width: 100%;
     height: 100%;
