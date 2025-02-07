@@ -18,4 +18,11 @@
     margin-left: 0.75rem;
     cursor: pointer;
   }
+  .swiper-button-next.swiper-button-disabled,
+  .swiper-button-prev.swiper-button-disabled {
+    opacity: 0 !important;
+  }
+  .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+    content: '';
+  }
 }
