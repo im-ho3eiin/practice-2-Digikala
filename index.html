@@ -1052,8 +1052,10 @@
         </div>
         <!-- story-bar end -->
         <!-- amazing-banners-slider -->
-        <div class="amazing-banners h-[180px] container-w-main">
-          <div class="swiper amazingBanners rounded-[20px]">
+        <div
+          class="amazing-banners group h-[180px] lg:h-[300px] relative container-w-main"
+        >
+          <div class="swiper amazingBanners rounded-[20px] lg:rounded-[0px]">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <img src="public/images/amazing-banners/1.png" alt="" />
@@ -1068,27 +1070,37 @@
                 <img src="public/images/amazing-banners/4.png" alt="" />
               </div>
             </div>
-            <div
-              class="swiper-button-next w-[40px]! h-[40px]! bg-neutral-100 border-[1px] border-[rgb(224,224,226)] rounded-full hidden! lg:flex! items-center justify-center"
-            >
-              <svg style="width: 24px; height: 24px; fill: rgb(124, 128, 134)">
-                <path
-                  d="M12.583 12L8.29 16.293l1.414 1.414 5-5a1 1 0 000-1.414l-5-5L8.29 7.707 12.583 12z"
-                ></path>
-              </svg>
+            <!-- buttons -->
+            <div class="w-[128px] h-[40px] absolute right-0 bottom-[48px]">
+              <div
+                class="swiper-button-next w-[40px]! h-[40px]! bg-neutral-100 border-[1px] border-[rgb(224,224,226)] rounded-full hidden! group-hover:lg:flex! items-center justify-center"
+              >
+                <svg
+                  style="width: 24px; height: 24px; fill: rgb(124, 128, 134)"
+                >
+                  <path
+                    d="M12.583 12L8.29 16.293l1.414 1.414 5-5a1 1 0 000-1.414l-5-5L8.29 7.707 12.583 12z"
+                  ></path>
+                </svg>
+              </div>
+              <div
+                class="swiper-button-prev w-[40px]! h-[40px]! mr-[20px] bg-neutral-100 border-[1px] border-[rgb(224,224,226)] rounded-full hidden! group-hover:lg:flex! items-center justify-center"
+              >
+                <svg
+                  style="width: 24px; height: 24px; fill: rgb(124, 128, 134)"
+                >
+                  <path
+                    d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                  ></path>
+                </svg>
+              </div>
             </div>
+            <!-- buttons end -->
+            <!-- pagination -->
             <div
-              class="swiper-button-prev w-[40px]! h-[40px]! bg-neutral-100 border-[1px] border-[rgb(224,224,226)] rounded-full hidden! lg:flex! items-center justify-center"
-            >
-              <svg style="width: 24px; height: 24px; fill: rgb(124, 128, 134)">
-                <path
-                  d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
-                ></path>
-              </svg>
-            </div>
-            <div
-              class="swiper-pagination w-full flex items-center justify-center transition duration-800"
+              class="swiper-pagination w-full flex items-center justify-center"
             ></div>
+            <!-- pagination end -->
           </div>
         </div>
         <!-- amazing-banners-slider end -->
