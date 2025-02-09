@@ -82,3 +82,15 @@
     border-radius: 99999px !important;
   }
 }
+.fantastic-offers {
+  width: 100%;
+  height: 100%;
+  .swiper-slide {
+    width: 130px !important;
+    background: #fff;
+  }
+  .swiper-button-next:after,
+  .swiper-rtl .swiper-button-prev:after {
+    content: "";
+  }
+}

@@ -494,6 +494,7 @@
         >
           <div class="swiper storySlider">
             <div class="swiper-wrapper">
+              <!-- slides -->
               <div
                 class="swiper-slide h-full mr-2 ml-3 lg:ml-6! bg-white! flex items-center justify-center"
               >
@@ -1030,6 +1031,8 @@
                 </div>
               </div>
             </div>
+            <!-- slides end -->
+            <!-- navigation buttons  -->
             <div
               class="swiper-button-next w-[40px]! h-[40px]! bg-neutral-100 border-[1px] border-[rgb(224,224,226)] rounded-full hidden! lg:flex! items-center justify-center"
             >
@@ -1048,6 +1051,7 @@
                 ></path>
               </svg>
             </div>
+            <!-- navigation buttons end  -->
           </div>
         </div>
         <!-- story-bar end -->
@@ -1084,7 +1088,7 @@
               </div>
             </div>
             <!-- slides end -->
-            <!-- buttons -->
+            <!-- navigation buttons -->
             <div class="w-[128px] h-[40px] absolute right-0 bottom-[48px]">
               <div
                 class="swiper-button-next w-[40px]! h-[40px]! bg-neutral-100 border-[1px] border-[rgb(224,224,226)] rounded-full hidden! group-hover:lg:flex! items-center justify-center"
@@ -1109,7 +1113,7 @@
                 </svg>
               </div>
             </div>
-            <!-- buttons end -->
+            <!-- navigation buttons end -->
             <!-- pagination -->
             <div
               class="swiper-pagination w-full flex items-center justify-center"
@@ -1412,6 +1416,40 @@
             </div>
           </div>
           <!-- mobile fantastic offers profile end -->
+
+          <div class="fantastic-offers fantasticOffers relative">
+            <div class="swiper-wrapper pb-5 pr-5">
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide">Slide 5</div>
+              <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div>
+            </div>
+            <!-- navigation buttons  -->
+            <div
+              class="swiper-button-next w-[40px]! h-[40px]! bg-neutral-100 border-[1px] border-[rgb(224,224,226)] rounded-full hidden! lg:flex! items-center justify-center"
+            >
+              <svg style="width: 24px; height: 24px; fill: rgb(124, 128, 134)">
+                <path
+                  d="M12.583 12L8.29 16.293l1.414 1.414 5-5a1 1 0 000-1.414l-5-5L8.29 7.707 12.583 12z"
+                ></path>
+              </svg>
+            </div>
+            <div
+              class="swiper-button-prev w-[40px]! h-[40px]! bg-neutral-100 border-[1px] border-[rgb(224,224,226)] rounded-full hidden! lg:flex! items-center justify-center"
+            >
+              <svg style="width: 24px; height: 24px; fill: rgb(124, 128, 134)">
+                <path
+                  d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                ></path>
+              </svg>
+            </div>
+            <!-- navigation buttons end  -->
+          </div>
         </div>
         <!-- fantastic offers end -->
         <div class="test w-full h-[10000px] bg-white"></div>
@@ -1441,6 +1479,14 @@
           el: ".swiper-pagination",
           clickable: true,
         },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+      var swiper = new Swiper(".fantasticOffers", {
+        slidesPerView: "auto",
+        spaceBetween: 2,
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
