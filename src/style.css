@@ -89,8 +89,13 @@
   .swiper-button-prev.swiper-button-disabled {
     opacity: 0 !important;
   }
-  .swiper-button-next:after,
-  .swiper-rtl .swiper-button-prev:after {
+  .swiper-button-next:after {
     content: "";
+  }
+  .swiper-rtl {
+    content: "";
+  }
+  .swiper-button-prev:after {
+    content: "-";
   }
 }
