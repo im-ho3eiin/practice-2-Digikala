@@ -106,9 +106,9 @@
     height: 100%;
   }
   .swiper-slide {
-    width: 84px !important;
-    margin-left: 0.75rem;
-    cursor: pointer;
+    display: flex;
+    flex-flow: column;
+    gap: 1;   
   }
   .swiper-button-next.swiper-button-disabled,
   .swiper-button-prev.swiper-button-disabled {
