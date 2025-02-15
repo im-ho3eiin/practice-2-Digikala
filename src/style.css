@@ -120,6 +120,28 @@
   }
 }
 
+.popular-brands {
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    width: fit-content;
+  }
+  .swiper-slide img {
+    display: block;
+    object-fit: cover;
+  }
+  .swiper-button-next.swiper-button-disabled,
+  .swiper-button-prev.swiper-button-disabled {
+    opacity: 0 !important;
+  }
+  .swiper-button-next:after,
+  .swiper-rtl .swiper-button-prev:after {
+    content: "";
+  }
+}
+
 .best-sellers {
   .swiper {
     width: 100%;
