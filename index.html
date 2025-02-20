@@ -11,7 +11,7 @@
     <!-- container -->
     <div class="overflow-hidden">
       <!-- top-pinned-banner for offer's banner -->
-      <div>
+      <div id="top">
         <img
           class="w-full h-[35px] lg:h-[60px] inline-block object-cover"
           src="public/images/static-banners/top-pinned-banner.jpg"
@@ -5159,7 +5159,27 @@
       <!-- footer including mobile and desktop footers -->
       <footer>
         <!-- mobile footer -->
-        <div class="lg:hidden"></div>
+        <div class="lg:hidden flex flex-col justify-center py-4 px-5">
+          <!-- return-top button -->
+          <a
+            class="w-full px-4 py-1 flex flex-row items-center justify-center"
+            href="#top"
+          >
+            <div
+              class="font-iranYekanBold text-[12px] leading-[26.04px] text-[rgb(25,191,211)]"
+            >
+              بازگشت به بالا
+            </div>
+            <div class="mr-2">
+              <svg style="width: 24px; height: 24px; fill: rgb(25, 191, 211)">
+                <path
+                  d="M7.707 14.707l-1.414-1.414 5-5a1 1 0 011.414 0l5 5-1.414 1.414L12 10.414l-4.293 4.293z"
+                ></path>
+              </svg>
+            </div>
+          </a>
+          <!-- return-top button end -->
+        </div>
         <!-- mobile footer end -->
         <!-- desktop footer -->
         <div class="hidden lg:block"></div>
