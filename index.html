@@ -332,12 +332,13 @@
             <nav
               class="w-full h-[40px] px-[16px] flex flex-row whitespace-nowrap container-w-header"
             >
-              <!-- menu including categories-title, nav-items, support-section -->
+              <!-- menu including categories, nav-items, support-section -->
               <div class="w-[977px] h-full grow flex flex-row items-center">
-                <!-- categories-title -->
+                <!-- categories including title and drop-down menu -->
                 <div
                   class="w-[142.05px] h-full flex flex-row items-center justify-start group relative"
                 >
+                  <!-- title -->
                   <div class="ml-1">
                     <svg
                       style="width: 20px; height: 20px; fill: rgb(66, 71, 80)"
@@ -361,8 +362,14 @@
                   <div
                     class="w-0 h-[2px] absolute left-1/2 bottom-0 bg-[rgb(239,60,81)] group-hover:left-0 group-hover:w-full transition-all duration-200"
                   ></div>
+                  <!-- title end -->
+                  <!-- drop-down menu -->
+                  <div
+                    class="w-0 h-0 bg-gray-200 absolute group-hover:w-[1136px] group-hover:h-[481px] top-[40px] right-0"
+                  ></div>
+                  <!-- drop-down menu end -->
                 </div>
-                <!-- categories-title end -->
+                <!-- categories end -->
                 <!-- nav-items -->
                 <div class="h-full flex flex-row items-center justify-start">
                   <div class="h-[40px] group relative">
@@ -5358,7 +5365,9 @@
                     class="w-[36px] h-[36px] bg-[rgb(242,242,242)] rounded-full flex items-center justify-center"
                   >
                     <div class="w-[24px] h-[24px]">
-                      <svg style="width: 24px; height: 24px; fill: rgb(66, 71, 80)">
+                      <svg
+                        style="width: 24px; height: 24px; fill: rgb(66, 71, 80)"
+                      >
                         <path
                           fill-rule="evenodd"
                           d="M18 17a4.001 4.001 0 01-3.14 3.907A3 3 0 1012 23h2a6 6 0 006-6v-.256a4.502 4.502 0 000-8.488V7a6 6 0 00-6-6h-4a6 6 0 00-6 6v1.256A4.502 4.502 0 005.5 17H7a1 1 0 001-1V9a1 1 0 00-1-1H6V7a4 4 0 014-4h4a4 4 0 014 4v1h-1a1 1 0 00-1 1v7a1 1 0 001 1h1zm.5-2H18v-5h.5a2.5 2.5 0 010 5zM6 10h-.5a2.5 2.5 0 000 5H6v-5zm7 10a1 1 0 11-2 0 1 1 0 012 0z"
