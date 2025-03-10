@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="rtl">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +8,30 @@
   <link rel="stylesheet" href="src/style.css" />
   <title>Fantastics</title>
 </head>
+
 <body>
   <!-- container -->
-   <div class="h-full overflow-clip scroll-smooth">
+  <div class="h-full overflow-clip scroll-smooth">
     <!-- sticky-area -->
-     <div class="h-full">
+    <div class="h-full">
       <!-- top-pinned-banner for offer's banner -->
       <div id="top" class="hidden lg:block sticky top-0 lg:z-500">
         <img class="w-full h-[35px] lg:h-[60px] inline-block object-cover"
-          src="public/images/static-banners/top-pinned-banner.jpg" alt="تا 235 میلیون تومان >جایزه برای همه بدون قرعه کشی" />
+          src="public/images/static-banners/top-pinned-banner.jpg"
+          alt="تا 235 میلیون تومان >جایزه برای همه بدون قرعه کشی" />
       </div>
       <!-- top-pinned-banner end -->
-     </div>
+      <!-- header including mobile and desktop headers -->
+      <header class="sticky top-0 lg:top-[60px] right-0 z-500 bg-white">
+        <!-- mobile header -->
+        <div></div>
+        <!-- mobile header end -->
+        <!-- desktop header end -->
+        <div></div>
+        <!-- desktop header end -->
+      </header>
+      <!-- header end -->
+    </div>
     <!-- sticky-area end -->
     <!-- fixed elements -->
     <!-- mobile-bottom-navigation-menu -->
@@ -87,9 +100,10 @@
     </div>
     <!-- support for desktop end -->
     <!-- fixed elements end -->
-   </div>
+  </div>
   <!-- container end -->
   <script src="node_modules/swiper/swiper-bundle.min.js"></script>
   <script type="module" src="/src/main.js"></script>
 </body>
+
 </html>
