@@ -22,13 +22,12 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 .container-w-fantastics {
   width: 100%;
   max-width: 1676px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 .story-bar {
@@ -230,5 +229,22 @@
     height: 6px !important;
     opacity: 1 !important;
     border-radius: 99999px !important;
+  }
+}
+.today-fantastics {
+  width: 100%;
+  height: 100%;
+  .swiper-button-next.swiper-button-disabled,
+  .swiper-button-prev.swiper-button-disabled {
+    opacity: 0 !important;
+  }
+  .swiper-button-next:after {
+    content: "";
+  }
+  .swiper-rtl {
+    content: "";
+  }
+  .swiper-button-prev:after {
+    content: "-";
   }
 }
