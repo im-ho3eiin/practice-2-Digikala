@@ -22,6 +22,14 @@
   margin-left: auto;
   margin-right: auto;
 }
+.container-w-fantastics {
+  width: 100%;
+  max-width: 1676px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
 
 .story-bar {
   .swiper {
@@ -183,5 +191,44 @@
   .swiper-button-next:after,
   .swiper-rtl .swiper-button-prev:after {
     content: "";
+  }
+}
+.fantastics-offers-slider {
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-button-next:after,
+  .swiper-rtl .swiper-button-prev:after {
+    content: "";
+  }
+  .swiper-pagination-bullet {
+    width: 4px;
+    height: 4px;
+    background-color: rgb(12, 12, 12);
+    margin-left: 4px;
+    margin-right: 4px;
+    opacity: 0.3;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #ffffff !important;
+    width: 16px !important;
+    height: 6px !important;
+    opacity: 1 !important;
+    border-radius: 99999px !important;
   }
 }
