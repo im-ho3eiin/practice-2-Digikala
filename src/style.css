@@ -267,3 +267,20 @@
     content: "";
   }
 }
+.ending-fantastics {
+  width: 100%;
+  height: 100%;
+  .swiper-button-next.swiper-button-disabled,
+  .swiper-button-prev.swiper-button-disabled {
+    opacity: 0 !important;
+  }
+  .swiper-button-next:after {
+    content: "";
+  }
+  .swiper-rtl {
+    content: "";
+  }
+  .swiper-button-prev:after {
+    content: "-";
+  }
+}
