@@ -248,3 +248,22 @@
     content: "-";
   }
 }
+.fantastics-category-slider {
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    display: flex;
+    flex-flow: column;
+    gap: 1;
+  }
+  .swiper-button-next.swiper-button-disabled,
+  .swiper-button-prev.swiper-button-disabled {
+    opacity: 0 !important;
+  }
+  .swiper-button-next:after,
+  .swiper-rtl .swiper-button-prev:after {
+    content: "";
+  }
+}
