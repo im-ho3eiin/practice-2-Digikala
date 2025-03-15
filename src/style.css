@@ -284,3 +284,10 @@
     content: "-";
   }
 }
+.all-fantastics-mobile-filters {
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
