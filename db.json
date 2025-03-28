@@ -1,1 +1,220 @@
-{}
+{
+  "fantasticArticles": [
+    {
+      "id": 1,
+      "title": "هدفون بلوتوثی <span>MQ80tws</span>",
+      "image": "./public/images/fantastic-articles/1.jpg",
+      "score": "۵",
+      "offPercent": "۸۰",
+      "offerPrice": "۳۹۹<span>,</span>۰۰۰",
+      "realPrice": "۱,۹۹۰,۰۰۰"
+    },
+    {
+      "id": 2,
+      "title": "هدفون بلوتوثی <span>Z20</span>",
+      "image": "./public/images/fantastic-articles/2.jpg",
+      "score": "۵",
+      "offPercent": "۷۷",
+      "offerPrice": "۶۹۹<span>,</span>۰۰۰",
+      "realPrice": "۲,۹۹۰,۰۰۰"
+    },
+    {
+      "id": 3,
+      "title": "هدفون بلوتوثی <span>P60i</span>",
+      "image": "./public/images/fantastic-articles/3.jpg",
+      "score": "۴.۵",
+      "offPercent": "۷۱",
+      "offerPrice": "۱<span>,</span>۸۸۰<span>,</span>۰۰۰",
+      "realPrice": "۶,۴۹۰,۰۰۰"
+    },
+    {
+      "id": 4,
+      "title": "محافظ برق هوشمند تایمردار هادرون مدل <span>P103</span>",
+      "image": "./public/images/fantastic-articles/4.jpg",
+      "score": "۴.۶",
+      "offPercent": "۲۰",
+      "offerPrice": "۴۱۵<span>,</span>۰۰۰",
+      "realPrice": "۵۱۹,۰۰۰"
+    },
+    {
+      "id": 5,
+      "title": " زعفران سرگل ماهور قاین - <span>4.608</span> گرم ",
+      "image": "./public/images/fantastic-articles/5.jpg",
+      "score": "۳.۴",
+      "offPercent": "۵۶",
+      "offerPrice": "۱۹۸<span>,</span>۰۰۰",
+      "realPrice": "۴۵۰,۰۰۰"
+    },
+    {
+      "id": 6,
+      "title": "کرم ژل آبرسان ساین اسکین، مدل <span>Synaqua</span>",
+      "image": "./public/images/fantastic-articles/6.jpg",
+      "score": "۴.۴",
+      "offPercent": "۴۵",
+      "offerPrice": "۱۸۵<span>,</span>۸۰۰",
+      "realPrice": "۳۳۷,۹۵۰"
+    },
+    {
+      "id": 7,
+      "title": "هندزفری تسکو مدل <span>th 5072</span>",
+      "image": "./public/images/fantastic-articles/7.jpg",
+      "score": "۴.۱",
+      "offPercent": "۲۳",
+      "offerPrice": "۱۱۹<span>,</span>۰۰۰",
+      "realPrice": "۱۵۵,۰۰۰"
+    },
+    {
+      "id": 8,
+      "title": "ساعت هوشمند ورنا مدل <span>Watch 4 Pro With 7 Bands</span>",
+      "image": "./public/images/fantastic-articles/8.jpg",
+      "score": "۴.۳",
+      "offPercent": "۲۹",
+      "offerPrice": "۲<span>,</span>۱۹۹<span>,</span>۰۰۰",
+      "realPrice": "۳,۱۰۰,۰۰۰"
+    },
+    {
+      "id": 9,
+      "title": "لپ تاپ <span>15.6</span> اینچی ایسوس مدل  <span>Vivobook 15 F1504VA-NJ826-i7 1355U 16GB 512SSD TN Fingerprint Backlit</span>",
+      "image": "./public/images/fantastic-articles/9.jpg",
+      "score": "۴",
+      "offPercent": "۳",
+      "offerPrice": "۴۸<span>,</span>۰۹۹<span>,</span>۰۰۰",
+      "realPrice": "۴۹,۴۹۹,۰۰۰"
+    },
+    {
+      "id": 10,
+      "title": "هدفون بلوتوثی سونی مدل <span>WF-1000XM5</span>",
+      "image": "./public/images/fantastic-articles/10.jpg",
+      "score": "۴.۴",
+      "offPercent": "۱۸",
+      "offerPrice": "۱۱<span>,</span>۳۹۹<span>,</span>۰۰۰",
+      "realPrice": "۱۳,۹۰۰,۰۰۰"
+    },
+    {
+      "id": 11,
+      "title": "ماسک مو برند بیول، حجم <span>500</span> میلی‌لیتر، مغذی، محافظت کننده، سازگار با موهای فر و خشک، مدل هلو و جوانه گندم",
+      "image": "./public/images/fantastic-articles/11.jpg",
+      "score": "۴.۳",
+      "offPercent": "۴۰",
+      "offerPrice": "۱۲۰<span>,</span>۰۰۰",
+      "realPrice": "۱۹۹,۸۷۰"
+    },
+    {
+      "id": 12,
+      "title": "مودم <span>4G</span> قابل حمل تی پی-لینک مدل <span>M7000</span>",
+      "image": "./public/images/fantastic-articles/12.jpg",
+      "score": "۴.۱",
+      "offPercent": "۴",
+      "offerPrice": "۲<span>,</span>۰۳۰<span>,</span>۰۰۰",
+      "realPrice": "۲,۱۲۲,۰۰۰"
+    },
+    {
+      "id": 13,
+      "title": "کرم ضد آفتاب رنگی آرت وینا، <span>SPF 50</span>، مدل <span>01</span>",
+      "image": "./public/images/fantastic-articles/13.jpg",
+      "score": "۴.۴",
+      "offPercent": "۶۹",
+      "offerPrice": "۳۳۷<span>,</span>۰۰۰",
+      "realPrice": "۱,۰۷۷,۰۰۰"
+    },
+    {
+      "id": 14,
+      "title": "هندزفری بلوتوثی جت موبیکس مدل <span>YX06</span>",
+      "image": "./public/images/fantastic-articles/14.jpg",
+      "score": "۴.۱",
+      "offPercent": "۲۰",
+      "offerPrice": "۴۹۹<span>,</span>۰۰۰",
+      "realPrice": "۶۲۰,۰۰۰"
+    },
+    {
+      "id": 15,
+      "title": "باتری قلمی کملیون مدل <span>digi alkaline</span> بسته <span>12</span> عددی ",
+      "image": "./public/images/fantastic-articles/15.jpg",
+      "score": "۴",
+      "offPercent": "۱۵",
+      "offerPrice": "۱۴۹<span>,</span>۰۰۰",
+      "realPrice": "۱۷۶,۰۰۰"
+    },
+    {
+      "id": 16,
+      "title": "دوربین مداربسته تحت شبکه اسفیورد مدل <span>Z225</span>",
+      "image": "./public/images/fantastic-articles/16.jpg",
+      "score": "۴.۴",
+      "offPercent": "۳۰",
+      "offerPrice": "۱<span>,</span>۷۲۹<span>,</span>۰۰۰",
+      "realPrice": "۲,۴۸۰,۰۰۰"
+    },
+    {
+      "id": 17,
+      "title": "حلوا ارده راوک اردکان - <span>700</span> گرم",
+      "image": "./public/images/fantastic-articles/17.jpg",
+      "score": "۴.۴",
+      "offPercent": "۴۰",
+      "offerPrice": "۱۴۹<span>,</span>۹۰۰",
+      "realPrice": "۲۴۹,۹۰۰"
+    },
+    {
+      "id": 18,
+      "title": "برس حرارتی رومئو مدل <span>RM-7575</span>",
+      "image": "./public/images/fantastic-articles/18.jpg",
+      "score": "۳.۹",
+      "offPercent": "۴۵",
+      "offerPrice": "۱<span>,</span>۳۲۸<span>,</span>۰۰۰",
+      "realPrice": "۲,۴۰۰,۰۰۰"
+    },
+    {
+      "id": 19,
+      "title": "استیک ضد تعریق زنانه آمبرلا مدل <span>Dream Invisible</span> حجم <span>90</span> میلی لیتر ",
+      "image": "./public/images/fantastic-articles/19.jpg",
+      "score": "۴.۲",
+      "offPercent": "۴۳",
+      "offerPrice": "۱۳۵<span>,</span>۹۰۰",
+      "realPrice": "۲۳۷,۰۰۰"
+    },
+    {
+      "id": 20,
+      "title": "قرص آیزن پلاس یورو ویتال بسته <span>60</span> عددی ",
+      "image": "./public/images/fantastic-articles/20.jpg",
+      "score": "۴.۳",
+      "offPercent": "۶۴",
+      "offerPrice": "۱۱۲<span>,</span>۰۰۰",
+      "realPrice": "۳۰۸,۳۰۰"
+    },
+    {
+      "id": 21,
+      "title": "کرم دور چشم اسکین وان مدل اکتیو رتینول حجم <span>20</span> میلی لیتر",
+      "image": "./public/images/fantastic-articles/21.jpg",
+      "score": "۴.۲",
+      "offPercent": "۳۰",
+      "offerPrice": "۲۱۰<span>,</span>۰۰۰",
+      "realPrice": "۲۹۹,۷۹۰"
+    },
+    {
+      "id": 22,
+      "title": "شامپو تقویت‌کننده و ترمیم کننده مو بدون پارابن آرت وینا، سازگار با موهای چرب، حاوی سبوس برنج",
+      "image": "./public/images/fantastic-articles/22.jpg",
+      "score": "۴",
+      "offPercent": "۶۴",
+      "offerPrice": "۳۳۷<span>,</span>۹۰۰",
+      "realPrice": "۹۵۰,۰۰۰"
+    },
+    {
+      "id": 23,
+      "title": "خردکن <span>2</span> تیغه <span>0.7</span> لیتری فیلیپس مدل <span>HR1393</span> سری <span>Daily Collection</span>، جنس بدنه پلاستیک و تیغه استیل ضد زنگ",
+      "image": "./public/images/fantastic-articles/23.jpg",
+      "score": "۴.۲",
+      "offPercent": "۳",
+      "offerPrice": "۲<span>,</span>۸۶۱<span>,</span>۵۰۰",
+      "realPrice": "۲,۹۵۰,۰۰۰"
+    },
+    {
+      "id": 24,
+      "title": "همزن برقی میگل مدل <span>GKM 600</span>",
+      "image": "./public/images/fantastic-articles/24.jpg",
+      "score": "۴.۳",
+      "offPercent": "۳۰",
+      "offerPrice": "۵<span>,</span>۲۴۳<span>,</span>۰۰۰",
+      "realPrice": "۷,۵۰۰,۰۰۰"
+    }
+  ]
+}
