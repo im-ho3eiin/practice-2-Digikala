@@ -14,11 +14,9 @@ _Built with the tools and technologies:_
 ## Table of Contents
 
 * [Overview]
-* [Getting Started]  
-   * [Prerequisites]  
-   * [Installation]  
-   * [Usage]  
-   * [Testing]
+* [Prerequisites]  
+* [Installation & Usage]  
+
 
 ---
 
@@ -39,8 +37,6 @@ This project aims to provide a robust foundation for building engaging online st
 
 ---
 
-## Getting Started
-
 ### Prerequisites
 
 This project requires the following dependencies:
@@ -48,48 +44,50 @@ This project requires the following dependencies:
 * **Programming Language:** HTML
 * **Package Manager:** Npm
 
-### Installation
+---
 
-Build practice-2-Digikala from the source and install dependencies:
+## ⚙️ Installation & Usage
 
-1. **Clone the repository:**  
-```sh  
-❯ git clone https://github.com/im-ho3eiin/practice-2-Digikala  
-```
-2. **Navigate to the project directory:**  
-```sh  
-❯ cd practice-2-Digikala  
-```
-3. **Install the dependencies:**
+Follow these steps to set up and run the project locally 👇
 
-**Using [npm](https://www.npmjs.com/):**
+### 1. Clone the repository
+First, clone this project to your local machine:
+```bash
+git clone https://github.com/im-ho3eiin/practice-2-Digikala.git
+````
 
-```sh
-❯ npm install
+### 2. Navigate to the project directory
+```bash
+cd practice-2-Digikala
+````
 
-```
+### 3. Run the development server
+Start the Vite dev server for live preview:
+```bash
+npm run dev
+````
+Then open the URL shown in the terminal — usually http://localhost:5173
 
-### Usage
+### 4. Build for production
+When you’re ready to deploy or test the optimized version:
+```bash
+npm run build
+````
+This command generates a dist/ folder with the final production files.
 
-Run the project with:
+### 5. Preview the production build
+(Optional) You can preview the built version locally:
+```bash
+npm run preview
+````
 
-**Using [npm](https://www.npmjs.com/):**
-
-```sh
-npm start
-
-```
-
-### Testing
-
-Practice-2-digikala uses the {**test\_framework**} test framework. Run the test suite with:
-
-**Using [npm](https://www.npmjs.com/):**
-
-```sh
-npm test
-
-```
-
+### 6. (Optional) Run mock API with json-server
+If you want to simulate API data from db.json, run:
+```bash
+npx json-server --watch db.json --port 3001
+````
+Your mock endpoints will be available at:
+* http://localhost:3001/products
+* http://localhost:3001/categories
 ---
 
