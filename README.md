@@ -13,12 +13,12 @@ _Built with the tools and technologies:_
 
 ## Table of Contents
 
-* [Overview](https://gitdocify.com/readme/practice-2-Digikala#overview)
-* [Getting Started](https://gitdocify.com/readme/practice-2-Digikala#getting-started)  
-   * [Prerequisites](https://gitdocify.com/readme/practice-2-Digikala#prerequisites)  
-   * [Installation](https://gitdocify.com/readme/practice-2-Digikala#installation)  
-   * [Usage](https://gitdocify.com/readme/practice-2-Digikala#usage)  
-   * [Testing](https://gitdocify.com/readme/practice-2-Digikala#testing)
+* [Overview]
+* [Getting Started]  
+   * [Prerequisites]  
+   * [Installation]  
+   * [Usage]  
+   * [Testing]
 
 ---
 
@@ -93,4 +93,3 @@ npm test
 
 ---
 
-[⬆ Return](https://gitdocify.com/readme/practice-2-Digikala#top)
