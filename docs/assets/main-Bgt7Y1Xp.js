@@ -1,29 +1,4 @@
-import './style.css'
-
-const isDev = import.meta.env.DEV
-
-// where to fetch from in each environment
-const DEV_URL = 'http://localhost:3000/fantasticArticles'
-const PROD_URL = `${import.meta.env.BASE_URL}data/fantasticArticles.json`
-
-async function loadFantasticArticles() {
-  try {
-    const response = await fetch(isDev ? DEV_URL : PROD_URL)
-    if (!response.ok) {
-      throw new Error('Failed to load fantastic articles')
-    }
-
-    const json = await response.json()
-
-    // Support both:
-    // - json-server dev: [ {…}, {…}, ... ]
-    // - your static file: [ { "fantasticArticles": [ {...}, {...} ] } ]
-    const fantasticArticles = Array.isArray(json)
-      ? (json[0]?.fantasticArticles ?? json)
-      : (json.fantasticArticles ?? json)
-
-    fantasticArticles.forEach(fantasticArticle => {
-      const article = `
+/* empty css              */(function(){const l=document.createElement("link").relList;if(l&&l.supports&&l.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))a(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const c of t.addedNodes)c.tagName==="LINK"&&c.rel==="modulepreload"&&a(c)}).observe(document,{childList:!0,subtree:!0});function s(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function a(e){if(e.ep)return;e.ep=!0;const t=s(e);fetch(e.href,t)}})();const r=!1,n="http://localhost:3000/fantasticArticles",o="./data/fantasticArticles.json";async function d(){var i;try{const l=await fetch(r?n:o);if(!l.ok)throw new Error("Failed to load fantastic articles");const s=await l.json();(Array.isArray(s)?((i=s[0])==null?void 0:i.fantasticArticles)??s:s.fantasticArticles??s).forEach(e=>{const t=`
 <div
   class="w-full h-full py-3 px-2 bg-white fantastic-articles-shadow flex flex-col items-center justify-center">
   <div class="w-full mb-1  flex items-center justify-start">
@@ -31,7 +6,7 @@ async function loadFantasticArticles() {
   </div>
   <div class="w-full flex flex-col">
     <div class="w-full mb-1 relative flex items-center justify-center">
-      <img class="w-[240px] h-[240px]" src="${fantasticArticle.image}" alt="">
+      <img class="w-[240px] h-[240px]" src="${e.image}" alt="">
       <div class="p-1 absolute top-0 left-0 flex flex-col gap-2">
         <div class="w-[8px] h-[8px] rounded-full bg-[rgb(33,33,33)]"></div>
         <div class="w-[8px] h-[8px] rounded-full bg-[rgb(33,33,33)]"></div>
@@ -41,10 +16,10 @@ async function loadFantasticArticles() {
     <div
       class="w-full flex flex-col items-center justify-center [&>*>span]:font-sans [&>*>span]:font-bold">
       <div
-        class="w-full font-iranYekanBold text-[11px] leading-[23.87px] text-neutral-700 line-clamp-2 overflow-hidden">${fantasticArticle.title}</div>
+        class="w-full font-iranYekanBold text-[11px] leading-[23.87px] text-neutral-700 line-clamp-2 overflow-hidden">${e.title}</div>
       <div class="w-full mb-1 flex flex-row items-center justify-end">
         <div class="flex flex-row items-center justify-center">
-          <div class="font-iranYekanBold text-[11px] leading-[23.87px] text-neutral-700">${fantasticArticle.score}</div>
+          <div class="font-iranYekanBold text-[11px] leading-[23.87px] text-neutral-700">${e.score}</div>
           <div class="mr-2"><svg style="width: 16px; height: 16px; fill: rgb(249, 188, 0);"
               viewBox="0 0 18 18">
               <path transform="scale(0.75) translate(-1,0)"
@@ -57,12 +32,12 @@ async function loadFantasticArticles() {
         <div class="w-full flex flex-row items-center">
           <div
             class="w-[38px] h-[20px] px-1 rounded-[16px] bg-[rgb(211,47,47)] font-iranYekanBold text-[11px] leading-[23.87px] text-white flex items-center justify-center">
-            ${fantasticArticle.offPercent}٪
+            ${e.offPercent}٪
           </div>
           <div class="w-full flex flex-row items-center justify-end gap-1">
             <div
               class="font-iranYekanBold text-[14px] lg:text-[16px] leading-[29.4px] text-[rgb(63,64,100)] [&>span]:font-sans [&>span]:font-bold">
-              ${fantasticArticle.offerPrice}
+              ${e.offerPrice}
             </div>
             <svg style="
                                   width: 16px;
@@ -77,7 +52,7 @@ async function loadFantasticArticles() {
         </div>
         <div class="pl-5 flex items-center justify-end">
           <del
-            class="font-iranYekan text-[11px] text-[rgb(192,194,197)] leading-[23.87px]">${fantasticArticle.realPrice}</del>
+            class="font-iranYekan text-[11px] text-[rgb(192,194,197)] leading-[23.87px]">${e.realPrice}</del>
         </div>
       </div>
       <div class="w-full mt-1 flex flex-col ">
@@ -90,15 +65,4 @@ async function loadFantasticArticles() {
     </div>
   </div>
 </div>
-      `
-
-      document
-        .querySelector('#fantastic-articles')
-        .insertAdjacentHTML('beforeend', article)
-    })
-  } catch (error) {
-    console.log(error)
-  }
-}
-
-loadFantasticArticles()
+      `;document.querySelector("#fantastic-articles").insertAdjacentHTML("beforeend",t)})}catch(l){console.log(l)}}d();
