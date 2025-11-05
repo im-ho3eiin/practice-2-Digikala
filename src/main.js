@@ -27,7 +27,7 @@ async function loadFantasticArticles() {
 <div
   class="w-full h-full py-3 px-2 bg-white fantastic-articles-shadow flex flex-col items-center justify-center">
   <div class="w-full mb-1  flex items-center justify-start">
-    <img src="public/svg/fantastic-articles-header.svg" alt="شگفت انگیزهای امروز">
+    <img src="./svg/fantastic-articles-header.svg" alt="شگفت انگیزهای امروز">
   </div>
   <div class="w-full flex flex-col">
     <div class="w-full mb-1 relative flex items-center justify-center">
